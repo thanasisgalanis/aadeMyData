@@ -1,106 +1,116 @@
 [
     {
-        "code" : "category1_1",
-        "description" : "ΕΣΟΔΑ ΑΠΟ ΠΩΛΗΣΗ ΕΜΠΟΡΕΥΜΑΤΩΝ"
-    },
-    {
-        "code" : "category1_2",
-        "description" : "ΕΣΟΔΑ ΑΠΟ ΠΩΛΗΣΗ ΠΡΟΙΟΝΤΩΝ"
-    },
-    {
-        "code" : "category1_3",
-        "description" : "ΕΣΟΔΑ ΑΠΟ ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ"
-    },
-    {
-        "code" : "category1_4",
-        "description" : "ΕΣΟΔΑ ΑΠΟ ΠΩΛΗΣΗ ΠΑΓΙΩΝ"
-    },
-    {
-        "code" : "category1_5",
-        "description" : "ΛΟΙΠΑ ΕΣΟΔΑ/ΚΕΡΔΗ"
-    },
-    {
-        "code" : "category1_6",
-        "description" : "ΑΥΤΟΠΑΡΑΔΟΣΕΙΣ/ΙΔΙΟΧΡΗΣΙΜΟΠΟΙΗΣΕΙΣ"
-    },
-    {
-        "code" : "category1_7",
-        "description" : "ΕΣΟΔΑ ΓΙΑ ΛΟΓ/ΣΜΟ ΤΡΙΤΩΝ"
-    },
-    {
-        "code" : "category1_8",
-        "description" : "ΕΣΟΔΑ ΠΡΟΗΓΟΥΜΕΝΩΝ ΧΡΗΣΕΩΝ"
-    },
-    {
-        "code" : "category1_9",
-        "description" : "ΕΣΟΔΑ ΕΠΟΜΕΝΩΝ ΧΡΗΣΕΩΝ"
-    },
-    {
-        "code" : "category1_10",
-        "description" : "ΛΟΙΠΕΣ ΕΓΓΡΑΦΕΣ ΤΑΚΤΟΠΟΙΗΣΗΣ ΕΣΟΔΩΝ"
-    },
-    {
-        "code" : "category1_95",
-        "description" : "ΛΟΙΠΑ ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΤΟΙΧΕΙΑ ΕΣΟΔΩΝ"
-    },
-    {
-        "code" : "category2_1",
-        "description" : "ΑΓΟΡΕΣ ΕΜΠΟΡΕΥΜΑΤΩΝ"
-    },
-    {
-        "code" : "category2_2",
-        "description" : "ΑΓΟΡΕΣ Α/Β ΥΛΩΝ"
-    },
-    {
-        "code" : "category2_3",
-        "description" : "ΛΗΨΗ ΥΠΗΡΕΣΙΩΝ"
-    },
-    {
-        "code" : "category2_4",
-        "description" : "ΓΕΝΙΚΑ ΕΞΟΔΑ ΜΕ ΔΙΚΑΙΩΜΑ ΕΚΠΤ.ΦΠΑ"
-    },
-    {
-        "code" : "category2_5",
-        "description" : "ΓΕΝ.ΕΞΟΔΑ ΧΩΡΙΣ ΔΙΚΑΙΩΜΑ ΕΚΠΤ.ΦΠΑ"
-    },
-    {
-        "code" : "category2_6",
-        "description" : "ΑΜΟΙΒΕΣ ΚΑΙ ΠΑΡΟΧΕΣ ΠΡΟΣΩΠΙΚΟΥ"
-    },
-    {
-        "code" : "category2_7",
-        "description" : "ΑΓΟΡΕΣ ΠΑΓΙΩΝ"
-    },
-    {
-        "code" : "category2_8",
-        "description" : "ΑΠΟΣΒΕΣΕΙΣ ΠΑΓΙΩΝ"
-    },
-    {
-        "code" : "category2_9",
-        "description" : "ΕΞΟΔΑ ΓΙΑ ΛΟΓ/ΣΜΟ ΤΡΙΤΩΝ"
-    },
-    {
-        "code" : "category2_10",
-        "description" : "ΕΞΟΔΑ ΠΡΟΗΓΟΥΜΕΝΩΝ ΧΡΗΣΕΩΝ"
-    },
-    {
-        "code" : "category2_11",
-        "description" : "ΕΞΟΔΑ ΕΠΟΜΕΝΩΝ ΧΡΗΣΕΩΝ"
-    },
-    {
-        "code" : "category2_12",
-        "description" : "ΛΟΙΠΕΣ ΕΓΓΡΑΦΕΣ ΤΑΚΤΟΠΟΙΗΣΗΣ ΕΞΟΔΩΝ"
-    },
-    {
-        "code" : "category2_13",
-        "description" : "ΑΠΟΘΕΜΑΤΑ ΕΝΑΡΞΗΣ ΠΕΡΙΟΔΟΥ"
-    },
-    {
-        "code" : "category2_14",
-        "description" : "ΑΠΟΘΕΜΑΤΑ ΛΗΞΗΣ ΠΕΡΙΟΔΟΥ"
-    },
-    {
-        "code" : "category2_95",
-        "description" : "ΛΟΙΠΑ ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΤΟΙΧΕΙΑ ΕΞΟΔΩΝ"
+        "income": [
+            {
+                "code": "category1_1",
+                "description": "Έσοδα από Πώληση Εμπορευμάτων "
+            },
+            {
+                "code": "category1_2",
+                "description": "Έσοδα από Πώληση Προϊόντων"
+            },
+            {
+                "code": "category1_3",
+                "description": "Έσοδα από Παροχή Υπηρεσιών"
+            },
+            {
+                "code": "category1_4",
+                "description": "Έσοδα από Πώληση Παγίων"
+            },
+            {
+                "code": "category1_5",
+                "description": "Λοιπά Έσοδα/ Κέρδη"
+            },
+            {
+                "code": "category1_6",
+                "description": "Αυτοπαραδόσεις / Ιδιοχρησιμοποιήσεις"
+            },
+            {
+                "code": "category1_7",
+                "description": "Έσοδα για λ/σμο τρίτων"
+            },
+            {
+                "code": "category1_8",
+                "description": "Έσοδα προηγούμενων χρήσεων"
+            },
+            {
+                "code": "category1_9",
+                "description": "Έσοδα επομένων χρήσεων"
+            },
+            {
+                "code": "category1_10",
+                "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων"
+            },
+            {
+                "code": "category1_95",
+                "description": "Λοιπά Πληροφοριακά Στοιχεία Εσόδων"
+            },
+            {
+                "code": "category3",
+                "description": "Διακίνηση"
+            }
+        ],
+        "expences": [
+            {
+                "code": "category2_1",
+                "description": "Αγορές Εμπορευμάτων"
+            },
+            {
+                "code": "category2_2",
+                "description": "Αγορές Α'-Β' Υλών"
+            },
+            {
+                "code": "category2_3",
+                "description": "Λήψη Υπηρεσιών"
+            },
+            {
+                "code": "category2_4",
+                "description": "Γενικά Έξοδα με δικαίωμα έκπτωσης ΦΠΑ"
+            },
+            {
+                "code": "category2_5",
+                "description": "Γενικά Έξοδα χωρίς δικαίωμα έκπτωσης ΦΠΑ "
+            },
+            {
+                "code": "category2_6",
+                "description": "Αμοιβές και Παροχές προσωπικού"
+            },
+            {
+                "code": "category2_7",
+                "description": "Αγορές Παγίων"
+            },
+            {
+                "code": "category2_8",
+                "description": "Αποσβέσεις Παγίων "
+            },
+            {
+                "code": "category2_9",
+                "description": "Έξοδα για λ/σμο τρίτων"
+            },
+            {
+                "code": "category2_10",
+                "description": "Έξοδα προηγούμενων χρήσεων"
+            },
+            {
+                "code": "category2_11",
+                "description": "Έξοδα επομένων χρήσεων"
+            },
+            {
+                "code": "category2_12",
+                "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων"
+            },
+            {
+                "code": "category2_13",
+                "description": "Αποθέματα Έναρξης Περιόδου"
+            },
+            {
+                "code": "category2_14",
+                "description": "Αποθέματα Λήξης Περιόδου"
+            },
+            {
+                "code": "category2_95",
+                "description": "Λοιπά Πληροφοριακά Στοιχεία Εξόδων"
+            }
+        ]
     }
 ]
