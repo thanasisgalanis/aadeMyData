@@ -1,18 +1,18 @@
-ΑΑΔΕ myData JSON
+# ΑΑΔΕ myData Rest API to JSON
 
-Δεδομένα για προγραμματιστές, σχετικά με την πλατφόρμα myData της ΑΑΔΕ.
+Δεδομένα myData σε μορφή **json** για προγραμματιστές, σχετικά με την πλατφόρμα [myData](https://www.aade.gr/mydata) της ΑΑΔΕ.
 
-## Τύποι παραστατικών
+## Τύποι παραστατικών (v.1.0.9)
 > myDataDocTypes.json
 
-# Τύποι δεδομένων
+## Τύποι δεδομένων (needs update)
 > myDataTypes.json
 
-## Κατηγορίες myData
+## Κατηγορίες myData (v.1.0.9)
 > myDataDocCategories.json
 
-## Κατηγορίες ΦΠΑ
+## Κατηγορίες ΦΠΑ (v.1.0.9)
 > myDataVatCategories.json
 
-## Λόγοι εξαίρεσης ΦΠΑ
+## Λόγοι εξαίρεσης ΦΠΑ (v.1.0.9)
 > myDataVatExceptionReasons.json
