@@ -8,39 +8,39 @@
 ## Τύποι παραστατικών (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.1
 
-[myDataDocTypes.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/myDataDocTypes.json)
+[myDataDocTypes.json](/myDataDocTypes.json)
 
 ## Κατηγορίες myData (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.8 & 8.10
 
-[myDataDocCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/myDataCategories.json)
+[myDataDocLineCategories.json](/myDataDocLineCategories.json)
 
 ## Τύποι δεδομένων (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.9 & 8.11
 
-[myDataLineTypes.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/myDataLineTypes.json)
+[myDataDocLineTypes.json](/myDataLineTypes.json)
 
 ## Κατηγορίες ΦΠΑ (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.2
 
-[myDataVatCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/myDataVatCategories.json)
+[vatCategories.json](/vatCategories.json)
 
 ## Λόγοι εξαίρεσης ΦΠΑ (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.3
 
-[myDataVatExceptionReasons.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/myDataVatExceptionReasons.json)
+[vatExceptionReasons.json](/vatExceptionReasons.json)
 
 ## Κατηγορίες παρακρατούμενων φόρων (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.4
 
-[withholdingTaxesCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/withholdingTaxesCategories.json)
+[withholdingTaxes.json](/withholdingTaxes.json)
 
 ## Κατηγορίες λοιπών φόρων (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.5
 
-[otherTaxesCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/otherTaxesCategories.json)
+[otherTaxes.json](/otherTaxes.json)
 
 ## Κατηγορίες Συντελεστών Χαρτοσήμου (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.6
 
-[stampRateCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/otherTaxesCategories.json)
+[stampRates.json](/stampRates.json)
