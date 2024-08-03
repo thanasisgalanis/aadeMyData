@@ -37,14 +37,14 @@
     {
         "code": "6",
         "description": "Ξενοδοχεία 1-2 αστέρων 0,50 €",
-        "defaultValue": 0.5,
+        "defaultValue": 0.50,
         "defaultValueType": "amount",
         "notes": ""
     },
     {
         "code": "7",
         "description": "Ξενοδοχεία 3 αστέρων 1,50 €",
-        "defaultValue": 1.5,
+        "defaultValue": 1.50,
         "defaultValueType": "amount",
         "notes": ""
     },
@@ -65,7 +65,7 @@
     {
         "code": "10",
         "description": "Ενοικιαζόμενα - επιπλωμένα δωμάτια - διαμερίσματα 0,50 €",
-        "defaultValue": 0.5,
+        "defaultValue": 0.50,
         "defaultValueType": "amount",
         "notes": ""
     },
@@ -141,14 +141,14 @@
     },
     {
         "code": "21",
-        "description": "Ξενοδοχεία 3 αστέρων 3,00€ (ανά Δωμ./Διαμ.) ",
+        "description": "Ξενοδοχεία 3 αστέρων 3,00€ (ανά Δωμ./Διαμ.)",
         "defaultValue": 3.00,
         "defaultValueType": "amount",
         "notes": ""
     },
     {
         "code": "22",
-        "description": Ξενοδοχεία 4 αστέρων 7,00€ (ανά Δωμ./Διαμ.) 
+        "description": "Ξενοδοχεία 4 αστέρων 7,00€ (ανά Δωμ./Διαμ.)",
         "defaultValue": 7.00,
         "defaultValueType": "amount",
         "notes": ""
@@ -163,14 +163,14 @@
     {
         "code": "24",
         "description": "Ενοικιαζόμενα επιπλωμένα δωμάτια – διαμερίσματα 1,50€ (ανά Δωμ./Διαμ.)",
-        "defaultValue": 1.5,
+        "defaultValue": 1.50,
         "defaultValueType": "amount",
         "notes": ""
     },
     {
         "code": "25",
         "description": "Ακίνητα βραχυχρόνιας μίσθωσης 1,50€",
-        "defaultValue": 1.5,
+        "defaultValue": 1.50,
         "defaultValueType": "amount",
         "notes": ""
     },
@@ -191,7 +191,7 @@
     {
         "code": "28",
         "description": "Ακίνητα βραχυχρόνιας μίσθωσης 0,50€",
-        "defaultValue": 0.5,
+        "defaultValue": 0.50,
         "defaultValueType": "amount",
         "notes": ""
     },
