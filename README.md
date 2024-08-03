@@ -22,3 +22,6 @@
 
 ## Κατηγορίες παρακρατούμενων φόρων (v.1.0.9)
 > withholdingTaxesCategories.json
+
+## Κατηγορίες λοιπών φόρων (v.1.0.9)
+> otherTaxesCategories.json

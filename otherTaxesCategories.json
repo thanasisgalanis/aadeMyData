@@ -1,0 +1,212 @@
+[
+    {
+        "code": "1",
+        "description": "α1) ασφάλιστρα κλάδου πυρός 20%",
+        "defaultValue": 15.00,
+        "defaultValueType": "persent",
+        "notes": "Από την τρέχουσα έκδοση δεν θα είναι δυνατή η αποστολή με αυτή την τιμή."
+    },
+    {
+        "code": "2",
+        "description": "α2) ασφάλιστρα κλάδου πυρός 20%",
+        "defaultValue": 5.00,
+        "defaultValueType": "persent",
+        "notes": "Από την τρέχουσα έκδοση δεν θα είναι δυνατή η αποστολή με αυτή την τιμή."
+    },
+    {
+        "code": "3",
+        "description": "β) ασφάλιστρα κλάδου ζωής 4%",
+        "defaultValue": 4.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "4",
+        "description": "γ) ασφάλιστρα λοιπών κλάδων 15%.",
+        "defaultValue": 15.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "5",
+        "description": "δ) απαλλασσόμενα φόρου ασφαλίστρων 0%.",
+        "defaultValue": 0.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "6",
+        "description": "Ξενοδοχεία 1-2 αστέρων 0,50 €",
+        "defaultValue": 0.5,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "7",
+        "description": "Ξενοδοχεία 3 αστέρων 1,50 €",
+        "defaultValue": 1.5,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "8",
+        "description": "Ξενοδοχεία 4 αστέρων 3,00 €",
+        "defaultValue": 3.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "9",
+        "description": "Ξενοδοχεία 4 αστέρων 4,00 €",
+        "defaultValue": 4.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "10",
+        "description": "Ενοικιαζόμενα - επιπλωμένα δωμάτια - διαμερίσματα 0,50 €",
+        "defaultValue": 0.5,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "11",
+        "description": "Ειδικός Φόρος στις διαφημίσεις που προβάλλονται από την τηλεόραση (ΕΦΤΔ) 5%",
+        "defaultValue": 5.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "12",
+        "description": "3.1 Φόρος πολυτελείας 10% επί της φορολογητέας αξίας για τα ενδοκοινοτικώς αποκτούμενα και εισαγόμενα από τρίτες χώρες 10%",
+        "defaultValue": 10.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "13",
+        "description": "3.2 Φόρος πολυτελείας 10% επί της τιμής πώλησης προ Φ.Π.Α. για τα εγχωρίως παραγόμενα είδη 10%",
+        "defaultValue": 10.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "14",
+        "description": "Δικαίωμα του Δημοσίου στα εισιτήρια των καζίνο (80% επί του εισιτηρίου)",
+        "defaultValue": 80.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "15",
+        "description": "ασφάλιστρα κλάδου πυρός 20%",
+        "defaultValue": 20.00,
+        "defaultValueType": "persent",
+        "notes": ""
+    },
+    {
+        "code": "16",
+        "description": "Λοιποί Τελωνειακοί Δασμοί-Φόροι",
+        "defaultValue": 0.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "17",
+        "description": "Λοιποί Φόροι",
+        "defaultValue": 0.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "18",
+        "description": "Επιβαρύνσεις Λοιπών Φόρων",
+        "defaultValue": 0.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "19",
+        "description": "ΕΦΚ",
+        "defaultValue": 0.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "20",
+        "description": "Ξενοδοχεία 1-2 αστέρων 1,50€ (ανά Δωμ./Διαμ.)",
+        "defaultValue": 1.50,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "21",
+        "description": "Ξενοδοχεία 3 αστέρων 3,00€ (ανά Δωμ./Διαμ.) ",
+        "defaultValue": 3.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "22",
+        "description": Ξενοδοχεία 4 αστέρων 7,00€ (ανά Δωμ./Διαμ.) 
+        "defaultValue": 7.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "23",
+        "description": "Ξενοδοχεία 5 αστέρων 10,00€ (ανά Δωμ./Διαμ.)",
+        "defaultValue": 10.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "24",
+        "description": "Ενοικιαζόμενα επιπλωμένα δωμάτια – διαμερίσματα 1,50€ (ανά Δωμ./Διαμ.)",
+        "defaultValue": 1.5,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "25",
+        "description": "Ακίνητα βραχυχρόνιας μίσθωσης 1,50€",
+        "defaultValue": 1.5,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "26",
+        "description": "Ακίνητα βραχυχρόνιας μίσθωσης μονοκατοικίες άνω των 80 τ.μ. 10,00€",
+        "defaultValue": 10.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "27",
+        "description": "Αυτοεξυπηρετούμενα καταλύματα – τουριστικές επιπλωμένες επαύλεις (βίλες) 10,00€",
+        "defaultValue": 10.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "28",
+        "description": "Ακίνητα βραχυχρόνιας μίσθωσης 0,50€",
+        "defaultValue": 0.5,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "29",
+        "description": "Ακίνητα βραχυχρόνιας μίσθωσης μονοκατοικίες άνω των 80 τ.μ. 4,00€",
+        "defaultValue": 4.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    },
+    {
+        "code": "30",
+        "description": "Αυτοεξυπηρετούμενα καταλύματα – τουριστικές επιπλωμένες επαύλεις (βίλες) 4,00€",
+        "defaultValue": 4.00,
+        "defaultValueType": "amount",
+        "notes": ""
+    }
+]
