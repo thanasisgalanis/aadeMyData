@@ -25,3 +25,6 @@
 
 ## Κατηγορίες λοιπών φόρων (v.1.0.9)
 [otherTaxesCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/otherTaxesCategories.json)
+
+## Κατηγορίες Συντελεστών Χαρτοσήμου (v.1.0.9)
+[stampRateCategories.json](https://github.com/thanasisgalanis/aadeMyData/blob/main/otherTaxesCategories.json)

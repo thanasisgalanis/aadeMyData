@@ -1,0 +1,26 @@
+[
+    {
+        "code": "1",
+        "description": "Συντελεστής 1,2 %",
+        "defaultValue": 1.20,
+        "defaultValueType": "persent"
+    },
+    {
+        "code": "2",
+        "description": "Συντελεστής 2,4 %",
+        "defaultValue": 2.40,
+        "defaultValueType": "persent"
+    },
+    {
+        "code": "3",
+        "description": "Συντελεστής 3,6 %",
+        "defaultValue": 3.60,
+        "defaultValueType": "persent"
+    },
+    {
+        "code": "4",
+        "description": "Λοιπές περιπτώσεις Χαρτοσήμου",
+        "defaultValue": 0.00,
+        "defaultValueType": "amount"
+    }
+]
