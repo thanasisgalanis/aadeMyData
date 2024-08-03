@@ -1,42 +1,62 @@
 [
     {
-        "code": 1,
-        "description": "ΦΠΑ συντελεστής 24%"
+        "code": "1",
+        "description": "ΦΠΑ συντελεστής 24%",
+        "defaultValue": 24.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 2,
-        "description": "ΦΠΑ συντελεστής 13%"
+        "code": "2",
+        "description": "ΦΠΑ συντελεστής 13%",
+        "defaultValue": 13.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 3,
-        "description": "ΦΠΑ συντελεστής 6% "
+        "code": "3",
+        "description": "ΦΠΑ συντελεστής 6% ",
+        "defaultValue": 6.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 4,
-        "description": "ΦΠΑ συντελεστής 17%"
+        "code": "4",
+        "description": "ΦΠΑ συντελεστής 17%",
+        "defaultValue": 17.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 5,
-        "description": "ΦΠΑ συντελεστής 9%"
+        "code": "5",
+        "description": "ΦΠΑ συντελεστής 9%",
+        "defaultValue": 9.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 6,
-        "description": "ΦΠΑ συντελεστής 4%"
+        "code": "6",
+        "description": "ΦΠΑ συντελεστής 4%",
+        "defaultValue": 4.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 7,
-        "description": "Άνευ Φ.Π.Α."
+        "code": "7",
+        "description": "Άνευ Φ.Π.Α.",
+        "defaultValue": 0.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 8,
-        "description": "Εγγραφές χωρίς ΦΠΑ (πχ Μισθοδοσία, Αποσβέσεις)"
+        "code": "8",
+        "description": "Εγγραφές χωρίς ΦΠΑ (πχ Μισθοδοσία, Αποσβέσεις)",
+        "defaultValue": 0.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 9,
-        "description": "ΦΠΑ συντελεστής 3% (αρ.31 ν.5057/2023)"
+        "code": "9",
+        "description": "ΦΠΑ συντελεστής 3% (αρ.31 ν.5057/2023)",
+        "defaultValue": 3.00,
+        "defaultValueType": "persent"
     },
     {
-        "code": 10,
-        "description": "ΦΠΑ συντελεστής 4% (αρ.31 ν.5057/2023)"
+        "code": "10",
+        "description": "ΦΠΑ συντελεστής 4% (αρ.31 ν.5057/2023)",
+        "defaultValue": 4.00,
+        "defaultValueType": "persent"
     }
 ]
