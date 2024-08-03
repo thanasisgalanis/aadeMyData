@@ -19,3 +19,6 @@
 
 ## Λόγοι εξαίρεσης ΦΠΑ (v.1.0.9)
 > myDataVatExceptionReasons.json
+
+## Κατηγορίες παρακρατούμενων φόρων (v.1.0.9)
+> withholdingTaxesCategories.json
