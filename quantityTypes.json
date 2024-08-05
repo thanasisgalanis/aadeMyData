@@ -1,0 +1,30 @@
+[
+    {
+        "code": "1",
+        "description": "Τεμάχια"
+    },
+    {
+        "code": "2",
+        "description": "Κιλά"
+    },
+    {
+        "code": "3",
+        "description": "Λίτρα"
+    },
+    {
+        "code": "4",
+        "description": "Μέτρα"
+    },
+    {
+        "code": "5",
+        "description": "Τετραγωνικά Μέτρα"
+    },
+    {
+        "code": "6",
+        "description": "Κυβικά Μέτρα"
+    },
+    {
+        "code": "7",
+        "description": "Τεμάχια_Λοιπές Περιπτώσεις"
+    }
+]
