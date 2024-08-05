@@ -89,3 +89,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.19
 
 [documentSpecialCategories.json](/documentSpecialCategories.json)
+
+## Κατηγορίες Οντότητας (EntityType) (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.20
+
+[entityTypes.json](/entityTypes.json)
