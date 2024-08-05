@@ -54,3 +54,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.12
 
 [stampRates.json](/paymentMethods.json)
+
+## Είδη Ποσότητας (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.13
+
+[stampRates.json](/quantityTypes.json)
