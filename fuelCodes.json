@@ -1,0 +1,147 @@
+[
+    {
+        "code": "10",
+        "description": "Benzine 95RON",
+        "notes": ""
+    },
+    {
+        "code": "11",
+        "description": "Benzine 95RON+",
+        "notes": ""
+    },
+    {
+        "code": "12",
+        "description": "Benzine 100RON",
+        "notes": ""
+    },
+    {
+        "code": "13",
+        "description": "Benzine LRP",
+        "notes": ""
+    },
+    {
+        "code": "14",
+        "description": "Βενζίνη αεροπλάνων",
+        "notes": ""
+    },
+    {
+        "code": "15",
+        "description": "Ειδικό καύσιμο αεριωθουμένων",
+        "notes": ""
+    },
+    {
+        "code": "20",
+        "description": "Diesel",
+        "notes": ""
+    },
+    {
+        "code": "21",
+        "description": "Diesel premium",
+        "notes": ""
+    },
+    {
+        "code": "30",
+        "description": "Diesel Heatnn",
+        "notes": ""
+    },
+    {
+        "code": "31",
+        "description": "Diesel Heat premium",
+        "notes": ""
+    },
+    {
+        "code": "32",
+        "description": "Diesel Light",
+        "notes": ""
+    },
+    {
+        "code": "33",
+        "description": "Diesel άλλων χρήσεων",
+        "notes": ""
+    },
+    {
+        "code": "34",
+        "description": "Diesel ναυτιλίας",
+        "notes": ""
+    },
+    {
+        "code": "35",
+        "description": "Κηροζίνη JP1",
+        "notes": ""
+    },
+    {
+        "code": "36",
+        "description": "Κηροζίνη άλλων χρήσεων",
+        "notes": ""
+    },
+    {
+        "code": "37",
+        "description": "Μαζούτ",
+        "notes": ""
+    },
+    {
+        "code": "38",
+        "description": "Μαζούτ ναυτιλίας",
+        "notes": ""
+    },
+    {
+        "code": "40",
+        "description": "LPG (υγραέριο)",
+        "notes": ""
+    },
+    {
+        "code": "41",
+        "description": "Υγραέριο (LPG) και μεθάνιο βιομηχανικό /εμπορικό κινητήρων (χύδην)",
+        "notes": ""
+    },
+    {
+        "code": "42",
+        "description": "Υγραέριο (LPG) και μεθάνιο θέρμανσης και λοιπών χρήσεων (χύδην)",
+        "notes": ""
+    },
+    {
+        "code": "43",
+        "description": "Υγραέριο (LPG) και μεθάνιο βιομηχανικό /εμπορικό κινητήρων (σε φιάλες)",
+        "notes": ""
+    },
+    {
+        "code": "44",
+        "description": "Υγραέριο (LPG) και μεθάνιο θέρμανσης και λοιπών χρήσεων (σε φιάλες)",
+        "notes": ""
+    },
+    {
+        "code": "50",
+        "description": "CNG (πεπιεσμένο φυσικό αέριο)",
+        "notes": ""
+    },
+    {
+        "code": "60",
+        "description": "Αρωματικοί Υδρογονάνθρακες Δασμολογικής Κλάσης 2707",
+        "notes": ""
+    },
+    {
+        "code": "61",
+        "description": "Κυκλικοί Υδρογονάνθρακες Δασμολογικής Κλάσης 2902",
+        "notes": ""
+    },
+    {
+        "code": "70",
+        "description": "Ελαφρύ πετρέλαιο (WHITE SPIRIT)",
+        "notes": ""
+    },
+    {
+        "code": "71",
+        "description": "Ελαφριά λάδια",
+        "notes": ""
+    },
+    {
+        "code": "72",
+        "description": "Βιοντίζελ",
+        "notes": ""
+    },
+    {
+        "code": "999",
+        "description": "Λοιπές χρεώσεις υπηρεσιών",
+        "notes": "Χρησιμοποιείται στις περιπτώσεις που σε ένα παραστατικό εκτός από καύσιμα υπάρχει η ανάγκη να τιμολογούνται και λοιπές χρεώσεις μικρών ποσών."
+    }
+]

@@ -74,3 +74,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.16
 
 [lineTypes.json](/lineTypes.json)
+
+## Κωδικοί Καυσίμων (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.17
+
+[fuelCodes.json](/fuelCodes.json)
