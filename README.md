@@ -69,3 +69,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.15
 
 [highlightings.json](/highlightings.json)
+
+## Είδος Γραμμής (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.16
+
+[lineTypes.json](/lineTypes.json)
