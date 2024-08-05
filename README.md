@@ -80,7 +80,12 @@
 
 [fuelCodes.json](/fuelCodes.json)
 
-## Τύπος Απόκλισης Παραστατικού (v.1.0.9)
+## Τύποι Απόκλισης Παραστατικού (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.18
 
 [documentDeviationTypes.json](/documentDeviationTypes.json)
+
+## Ειδικές Κατηγορίες Παραστατικού (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.19
+
+[documentSpecialCategories.json](/documentSpecialCategories.json)
