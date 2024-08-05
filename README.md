@@ -79,3 +79,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.17
 
 [fuelCodes.json](/fuelCodes.json)
+
+## Τύπος Απόκλισης Παραστατικού (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.18
+
+[documentDeviationTypes.json](/documentDeviationTypes.json)
