@@ -1,0 +1,34 @@
+[
+    {
+        "code": "1",
+        "description" : "Επαγ. Λογαριασμός Πληρωμών Ημεδαπής"
+    },
+    {
+        "code": "2",
+        "description" : "Επαγ. Λογαριασμός Πληρωμών Αλλοδαπής"
+    },
+    {
+        "code": "3",
+        "description" : "Μετρητά"
+    },
+    {
+        "code": "4",
+        "description" : "Επιταγή"
+    },
+    {
+        "code": "5",
+        "description" : "Επί Πιστώσει"
+    },
+    {
+        "code": "6",
+        "description" : "Web Banking"
+    },
+    {
+        "code": "7",
+        "description" : "POS / e-POS"
+    },
+    {
+        "code": "8",
+        "description" : "Άμεσες Πληρωμές IRIS"
+    }
+]
