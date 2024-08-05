@@ -48,19 +48,24 @@
 ## Κατηγορίες Τελών (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.7
 
-[stampRates.json](/feeCategories.json)
+[feeCategories.json](/feeCategories.json)
 
 ## Τρόποι Πληρωμής (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.12
 
-[stampRates.json](/paymentMethods.json)
+[paymentMethods.json](/paymentMethods.json)
 
 ## Είδη Ποσότητας (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.13
 
-[stampRates.json](/quantityTypes.json)
+[quantityTypes.json](/quantityTypes.json)
 
 ## Σκοποί Διακίνησης (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.14
 
-[stampRates.json](/transactionPurposes.json)
+[transactionPurposes.json](/transactionPurposes.json)
+
+## Επισημάνσεις (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.15
+
+[highlightings.json](/highlightings.json)
