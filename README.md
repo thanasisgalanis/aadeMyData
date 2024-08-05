@@ -44,3 +44,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.6
 
 [stampRates.json](/stampRates.json)
+
+## Κατηγορίες Τελών (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.7
+
+[stampRates.json](/feeCategories.json)
