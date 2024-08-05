@@ -59,3 +59,8 @@
 Παράρτημα myDATA REST API - Πίνακας 8.13
 
 [stampRates.json](/quantityTypes.json)
+
+## Σκοποί Διακίνησης (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.14
+
+[stampRates.json](/transactionPurposes.json)
