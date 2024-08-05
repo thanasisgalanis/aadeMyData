@@ -5,20 +5,20 @@
 >
 > <a href="https://www.aade.gr/sites/default/files/2024-07/myDATA%20API%20Documentation%20v1.0.9_official_erp.pdf" target="_blank">Έκδοση 1.0.9 - Ιούλιος 2024</a>
 
-## Τύποι παραστατικών (v.1.0.9)
+## Είδη παραστατικών (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.1
 
-[myDataDocTypes.json](/myDataDocTypes.json)
+[documentTypes.json](/documentTypes.json)
 
-## Κατηγορίες myData (v.1.0.9)
+## Κατηγορίες Χαρακτηρισμού (Εσόδων & Εξόδων) (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.8 & 8.10
 
-[myDataDocLineCategories.json](/myDataDocLineCategories.json)
+[characterizationCategories.json](/characterizationCategories.json)
 
-## Τύποι δεδομένων (v.1.0.9)
+## Τύποι Χαρακτηρισμού (Εσόδων, Εξόδων & Φ.Π.Α.) (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.9 & 8.11
 
-[myDataDocLineTypes.json](/myDataLineTypes.json)
+[characterizationTypes.json](/characterizationTypes.json)
 
 ## Κατηγορίες ΦΠΑ (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.2
