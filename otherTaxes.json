@@ -3,35 +3,35 @@
         "code": "1",
         "description": "α1) ασφάλιστρα κλάδου πυρός 20%",
         "defaultValue": 15.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": "Από την τρέχουσα έκδοση δεν θα είναι δυνατή η αποστολή με αυτή την τιμή."
     },
     {
         "code": "2",
         "description": "α2) ασφάλιστρα κλάδου πυρός 20%",
         "defaultValue": 5.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": "Από την τρέχουσα έκδοση δεν θα είναι δυνατή η αποστολή με αυτή την τιμή."
     },
     {
         "code": "3",
         "description": "β) ασφάλιστρα κλάδου ζωής 4%",
         "defaultValue": 4.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
         "code": "4",
         "description": "γ) ασφάλιστρα λοιπών κλάδων 15%.",
         "defaultValue": 15.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
         "code": "5",
         "description": "δ) απαλλασσόμενα φόρου ασφαλίστρων 0%.",
         "defaultValue": 0.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
@@ -73,35 +73,35 @@
         "code": "11",
         "description": "Ειδικός Φόρος στις διαφημίσεις που προβάλλονται από την τηλεόραση (ΕΦΤΔ) 5%",
         "defaultValue": 5.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
         "code": "12",
         "description": "3.1 Φόρος πολυτελείας 10% επί της φορολογητέας αξίας για τα ενδοκοινοτικώς αποκτούμενα και εισαγόμενα από τρίτες χώρες 10%",
         "defaultValue": 10.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
         "code": "13",
         "description": "3.2 Φόρος πολυτελείας 10% επί της τιμής πώλησης προ Φ.Π.Α. για τα εγχωρίως παραγόμενα είδη 10%",
         "defaultValue": 10.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
         "code": "14",
         "description": "Δικαίωμα του Δημοσίου στα εισιτήρια των καζίνο (80% επί του εισιτηρίου)",
         "defaultValue": 80.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
         "code": "15",
         "description": "ασφάλιστρα κλάδου πυρός 20%",
         "defaultValue": 20.00,
-        "defaultValueType": "persent",
+        "defaultValueType": "percent",
         "notes": ""
     },
     {
