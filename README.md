@@ -10,15 +10,30 @@
 
 [documentTypes.json](/documentTypes.json)
 
-## Κατηγορίες Χαρακτηρισμού (Εσόδων & Εξόδων) (v.1.0.9)
-Παράρτημα myDATA REST API - Πίνακας 8.8 & 8.10
+## Κατηγορίες Χαρακτηρισμού Εσόδων (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.8
 
-[characterizationCategories.json](/characterizationCategories.json)
+[characterizationCategoriesIncome.json](/characterizationCategoriesIncome.json)
 
-## Τύποι Χαρακτηρισμού (Εσόδων, Εξόδων & Φ.Π.Α.) (v.1.0.9)
-Παράρτημα myDATA REST API - Πίνακας 8.9 & 8.11
+## Κατηγορίες Χαρακτηρισμού Εξόδων (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.10
 
-[characterizationTypes.json](/characterizationTypes.json)
+[characterizationCategoriesExpenses.json](/characterizationCategoriesExpenses.json)
+
+## Τύποι Χαρακτηρισμού Εσόδων (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.9
+
+[characterizationTypesIncome.json](/characterizationTypesIncome.json)
+
+## Τύποι Χαρακτηρισμού Εξόδων (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας 8.11
+
+[characterizationTypesExpenses.json](/characterizationTypesExpenses.json)
+
+## Τύποι Χαρακτηρισμού Φ.Π.Α. (v.1.0.9)
+Παράρτημα myDATA REST API - Πίνακας
+
+[characterizationTypesVat.json](/characterizationTypesVat.json)
 
 ## Κατηγορίες ΦΠΑ (v.1.0.9)
 Παράρτημα myDATA REST API - Πίνακας 8.2

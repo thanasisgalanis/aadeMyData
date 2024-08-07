@@ -12,12 +12,12 @@
     {
         "code": "3",
         "description": "Λογιστική Εγγραφή",
-        "notes": "Έγκυρ"
+        "notes": ""
     },
     {
         "code": "4",
         "description": "Tax Free",
-        "notes": "η τιμή μόνο για διαβίβαση μέσω erp ή έκδοση μέσω παρόχου ή timologio"
+        "notes": "Έγκυρη τιμή μόνο για διαβίβαση μέσω erp ή έκδοση μέσω παρόχου ή timologio"
     },
     {
         "code": "5",
