@@ -1,0 +1,62 @@
+[
+    {
+        "code": "category2_1",
+        "description": "Αγορές Εμπορευμάτων"
+    },
+    {
+        "code": "category2_2",
+        "description": "Αγορές Α'-Β' Υλών"
+    },
+    {
+        "code": "category2_3",
+        "description": "Λήψη Υπηρεσιών"
+    },
+    {
+        "code": "category2_4",
+        "description": "Γενικά Έξοδα με δικαίωμα έκπτωσης ΦΠΑ"
+    },
+    {
+        "code": "category2_5",
+        "description": "Γενικά Έξοδα χωρίς δικαίωμα έκπτωσης ΦΠΑ "
+    },
+    {
+        "code": "category2_6",
+        "description": "Αμοιβές και Παροχές προσωπικού"
+    },
+    {
+        "code": "category2_7",
+        "description": "Αγορές Παγίων"
+    },
+    {
+        "code": "category2_8",
+        "description": "Αποσβέσεις Παγίων "
+    },
+    {
+        "code": "category2_9",
+        "description": "Έξοδα για λ/σμο τρίτων"
+    },
+    {
+        "code": "category2_10",
+        "description": "Έξοδα προηγούμενων χρήσεων"
+    },
+    {
+        "code": "category2_11",
+        "description": "Έξοδα επομένων χρήσεων"
+    },
+    {
+        "code": "category2_12",
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων"
+    },
+    {
+        "code": "category2_13",
+        "description": "Αποθέματα Έναρξης Περιόδου"
+    },
+    {
+        "code": "category2_14",
+        "description": "Αποθέματα Λήξης Περιόδου"
+    },
+    {
+        "code": "category2_95",
+        "description": "Λοιπά Πληροφοριακά Στοιχεία Εξόδων"
+    }
+]
