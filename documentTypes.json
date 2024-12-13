@@ -29,7 +29,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -38,7 +37,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -47,7 +45,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -80,7 +77,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -168,7 +164,7 @@
         "description": "Απόδειξη Επιστροφής POS",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
             "notes": ""
         }
     },
@@ -231,9 +227,11 @@
     {
         "code": "13.1",
         "description": "Έξοδα - Αγορές Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής",
-        "availableForERP": true,
-        "availableForProvider": false,
-        "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.2",
@@ -265,9 +263,11 @@
     {
         "code": "13.30",
         "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)",
-        "availableForERP": true,
-        "availableForProvider": false,
-        "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.31",

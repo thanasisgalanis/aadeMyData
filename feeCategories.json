@@ -58,8 +58,10 @@
     {
         "code": "8",
         "description": "Περιβαλλοντικό Τέλος & πλαστικής σακούλας ν. 2339/2001 αρ. 6α 0,07 ευρώ ανά τεμάχιο",
-        "defaultValue": 0.07,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.07,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "9",
