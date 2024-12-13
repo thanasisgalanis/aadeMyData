@@ -2,44 +2,58 @@
     {
         "code": "1",
         "description": "Για μηνιαίο λογαριασμό μέχρι και 50 ευρώ 12%",
-        "defaultValue": 12.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 12.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "2",
         "description": "Για μηνιαίο λογαριασμό από 50,01 μέχρι και 100 ευρώ 15% ",
-        "defaultValue": 15.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 15.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "3",
         "description": "Για μηνιαίο λογαριασμό από 100,01 μέχρι και 150 ευρώ 18%",
-        "defaultValue": 18.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 18.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "4",
         "description": "Για μηνιαίο λογαριασμό από 150,01 ευρώ και άνω 20%",
-        "defaultValue": 20.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 20.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "5",
         "description": "Τέλος καρτοκινητής επί της αξίας του χρόνου ομιλίας (12%)",
-        "defaultValue": 12.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 12.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "6",
         "description": "Τέλος στη συνδρομητική τηλεόραση 10%",
-        "defaultValue": 10.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 10.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "7",
         "description": "Τέλος συνδρομητών σταθερής τηλεφωνίας 5%",
-        "defaultValue": 5.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 5.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "8",
@@ -50,85 +64,113 @@
     {
         "code": "9",
         "description": "Εισφορά δακοκτονίας 2%",
-        "defaultValue": 2.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 2.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "10",
         "description": "Λοιπά τέλη ",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "11",
         "description": "Τέλη Λοιπών Φόρων",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "12",
         "description": "Εισφορά δακοκτονίας",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "13",
         "description": "Για μηνιαίο λογαριασμό κάθε σύνδεσης (10%)",
-        "defaultValue": 10.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 10.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "14",
         "description": "Τέλος καρτοκινητής επί της αξίας του χρόνου ομιλίας (10%)",
-        "defaultValue": 10.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 10.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "15",
         "description": "Τέλος κινητής και καρτοκινητής για φυσικά πρόσωπα ηλικίας 15 έως και 29 ετών (0%)",
-        "defaultValue": 0.00,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "16",
         "description": "Εισφορά προστασίας περιβάλλοντος πλαστικών προϊόντων 0,04 λεπτά ανά τεμάχιο [άρθρο 4 ν. 4736/2020]",
-        "defaultValue": 0.04,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 0.04,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "17",
         "description": "Τέλος ανακύκλωσης 0,08 λεπτά ανά τεμάχιο [άρθρο 80 ν. 4819/2021]",
-        "defaultValue": 0.08,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.08,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "18",
         "description": "Τέλος διαμονής παρεπιδημούντων",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "19",
         "description": "Τέλος επί των ακαθάριστων εσόδων των εστιατορίων και συναφών καταστημάτων",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "20",
         "description": "Τέλος επί των ακαθάριστων εσόδων των κέντρων διασκέδασης",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "21",
         "description": "Τέλος επί των ακαθάριστων εσόδων των καζίνο",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "22",
         "description": "Λοιπά τέλη επί των ακαθάριστων εσόδων",
-        "defaultValue": 0.00,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.00,
+            "defaultValueType": "amount"
+        }
     }
 ]
