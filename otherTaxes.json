@@ -22,7 +22,7 @@
         "description": "β) ασφάλιστρα κλάδου ζωής 4%",
         "metadata": {
             "defaultValue": 4.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -30,7 +30,7 @@
         "description": "γ) ασφάλιστρα λοιπών κλάδων 15%.",
         "metadata": {
             "defaultValue": 15.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -38,7 +38,7 @@
         "description": "δ) απαλλασσόμενα φόρου ασφαλίστρων 0%.",
         "metadata": {
             "defaultValue": 0.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -46,7 +46,7 @@
         "description": "Ξενοδοχεία 1-2 αστέρων 0,50 €",
         "metadata": {
             "defaultValue": 0.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -54,7 +54,7 @@
         "description": "Ξενοδοχεία 3 αστέρων 1,50 €",
         "metadata": {
             "defaultValue": 1.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -62,7 +62,7 @@
         "description": "Ξενοδοχεία 4 αστέρων 3,00 €",
         "metadata": {
             "defaultValue": 3.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -70,7 +70,7 @@
         "description": "Ξενοδοχεία 4 αστέρων 4,00 €",
         "metadata": {
             "defaultValue": 4.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -78,7 +78,7 @@
         "description": "Ενοικιαζόμενα - επιπλωμένα δωμάτια - διαμερίσματα 0,50 €",
         "metadata": {
             "defaultValue": 0.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -94,7 +94,7 @@
         "description": "3.1 Φόρος πολυτελείας 10% επί της φορολογητέας αξίας για τα ενδοκοινοτικώς αποκτούμενα και εισαγόμενα από τρίτες χώρες 10%",
         "metadata": {
             "defaultValue": 10.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -102,7 +102,7 @@
         "description": "3.2 Φόρος πολυτελείας 10% επί της τιμής πώλησης προ Φ.Π.Α. για τα εγχωρίως παραγόμενα είδη 10%",
         "metadata": {
             "defaultValue": 10.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -110,7 +110,7 @@
         "description": "Δικαίωμα του Δημοσίου στα εισιτήρια των καζίνο (80% επί του εισιτηρίου)",
         "metadata": {
             "defaultValue": 80.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -118,7 +118,7 @@
         "description": "ασφάλιστρα κλάδου πυρός 20%",
         "metadata": {
             "defaultValue": 20.00,
-            "defaultValueType": "percent",
+            "defaultValueType": "percent"
         }
     },
     {
@@ -126,7 +126,7 @@
         "description": "Λοιποί Τελωνειακοί Δασμοί-Φόροι",
         "metadata": {
             "defaultValue": 0.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -134,7 +134,7 @@
         "description": "Λοιποί Φόροι",
         "metadata": {
             "defaultValue": 0.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -142,7 +142,7 @@
         "description": "Επιβαρύνσεις Λοιπών Φόρων",
         "metadata": {
             "defaultValue": 0.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -150,7 +150,7 @@
         "description": "ΕΦΚ",
         "metadata": {
             "defaultValue": 0.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -158,7 +158,7 @@
         "description": "Ξενοδοχεία 1-2 αστέρων 1,50€ (ανά Δωμ./Διαμ.)",
         "metadata": {
             "defaultValue": 1.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -166,7 +166,7 @@
         "description": "Ξενοδοχεία 3 αστέρων 3,00€ (ανά Δωμ./Διαμ.)",
         "metadata": {
             "defaultValue": 3.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -174,7 +174,7 @@
         "description": "Ξενοδοχεία 4 αστέρων 7,00€ (ανά Δωμ./Διαμ.)",
         "metadata": {
             "defaultValue": 7.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -182,7 +182,7 @@
         "description": "Ξενοδοχεία 5 αστέρων 10,00€ (ανά Δωμ./Διαμ.)",
         "metadata": {
             "defaultValue": 10.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -190,7 +190,7 @@
         "description": "Ενοικιαζόμενα επιπλωμένα δωμάτια – διαμερίσματα 1,50€ (ανά Δωμ./Διαμ.)",
         "metadata": {
             "defaultValue": 1.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -198,7 +198,7 @@
         "description": "Ακίνητα βραχυχρόνιας μίσθωσης 1,50€",
         "metadata": {
             "defaultValue": 1.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -206,7 +206,7 @@
         "description": "Ακίνητα βραχυχρόνιας μίσθωσης μονοκατοικίες άνω των 80 τ.μ. 10,00€",
         "metadata": {
             "defaultValue": 10.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -214,7 +214,7 @@
         "description": "Αυτοεξυπηρετούμενα καταλύματα – τουριστικές επιπλωμένες επαύλεις (βίλες) 10,00€",
         "metadata": {
             "defaultValue": 10.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -222,7 +222,7 @@
         "description": "Ακίνητα βραχυχρόνιας μίσθωσης 0,50€",
         "metadata": {
             "defaultValue": 0.50,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -230,7 +230,7 @@
         "description": "Ακίνητα βραχυχρόνιας μίσθωσης μονοκατοικίες άνω των 80 τ.μ. 4,00€",
         "metadata": {
             "defaultValue": 4.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     },
     {
@@ -238,7 +238,7 @@
         "description": "Αυτοεξυπηρετούμενα καταλύματα – τουριστικές επιπλωμένες επαύλεις (βίλες) 4,00€",
         "metadata": {
             "defaultValue": 4.00,
-            "defaultValueType": "amount",
+            "defaultValueType": "amount"
         }
     }
 ]
