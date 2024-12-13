@@ -5,7 +5,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -14,7 +13,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -23,7 +21,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -59,7 +56,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -68,7 +64,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -77,7 +72,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -95,7 +89,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -104,7 +97,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -113,7 +105,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -122,7 +113,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -131,7 +121,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -140,7 +129,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -149,7 +137,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -158,7 +145,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -167,7 +153,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -176,7 +161,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -194,7 +178,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -203,7 +186,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -212,7 +194,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -221,7 +202,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -230,7 +210,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -239,7 +218,6 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
@@ -248,21 +226,21 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
-            "notes": ""
         }
     },
     {
         "code": "13.1",
         "description": "Έξοδα - Αγορές Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής",
         "availableForERP": true,
-        "availableForProvider": false
+        "availableForProvider": false,
+        "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
     },
     {
         "code": "13.2",
         "description": "Παροχή Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -271,7 +249,7 @@
         "description": "Κοινόχρηστα",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -280,7 +258,7 @@
         "description": "Συνδρομές",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -288,14 +266,15 @@
         "code": "13.30",
         "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)",
         "availableForERP": true,
-        "availableForProvider": false
+        "availableForProvider": false,
+        "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
     },
     {
         "code": "13.31",
         "description": "Πιστωτικό Στοιχ. Λιανικής ημεδαπής / αλλοδαπής",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -304,7 +283,7 @@
         "description": "Τιμολόγιο / Ενδοκοινοτικές Αποκτήσεις ",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -313,7 +292,7 @@
         "description": "Τιμολόγιο / Αποκτήσεις Τρίτων Χωρών",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -322,7 +301,7 @@
         "description": "Τιμολόγιο / Ενδοκοινοτική Λήψη Υπηρεσιών",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -331,7 +310,7 @@
         "description": "Τιμολόγιο / Λήψη Υπηρεσιών Τρίτων Χωρών",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -340,7 +319,7 @@
         "description": "ΕΦΚΑ και λοιποί Ασφαλιστικοί Οργανισμοί",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -349,7 +328,7 @@
         "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -358,7 +337,7 @@
         "description": "Πιστωτικό ημεδαπής / αλλοδαπής",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -367,7 +346,7 @@
         "description": "Συμβόλαιο - Έξοδο",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -376,7 +355,7 @@
         "description": "Ενοίκιο Έξοδο",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -385,7 +364,7 @@
         "description": "Μισθοδοσία",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -394,7 +373,7 @@
         "description": "Αποσβέσεις",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -403,7 +382,7 @@
         "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων - Λογιστική Βάση",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -412,7 +391,7 @@
         "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων - Φορολογική Βάση",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -421,7 +400,7 @@
         "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων - Λογιστική Βάση",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     },
@@ -430,7 +409,7 @@
         "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων - Φορολογική Βάση",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": false
+            "availableForProvider": false,
             "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
         }
     }
