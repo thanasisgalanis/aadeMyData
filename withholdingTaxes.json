@@ -2,109 +2,145 @@
     {
         "code": "1",
         "description": "Περιπτ. β’- Τόκοι - 15%",
-        "defaultValue": 15.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 15.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "2",
         "description": "Περιπτ. γ’ - Δικαιώματα - 20%",
-        "defaultValue": 20.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 20.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "3",
         "description": "Περιπτ. δ’ - Αμοιβές Συμβουλών Διοίκησης - 20%",
-        "defaultValue": 20.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 20.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "4",
         "description": "Περιπτ. δ’ - Τεχνικά Έργα - 3%",
-        "defaultValue": 3.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 3.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "5",
         "description": "Υγρά καύσιμα και προϊόντα καπνοβιομηχανίας 1%",
-        "defaultValue": 1.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 1.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "6",
         "description": "Λοιπά Αγαθά 4%",
-        "defaultValue": 4.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 4.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "7",
         "description": "Παροχή Υπηρεσιών 8%",
-        "defaultValue": 8.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 8.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "8",
         "description": "Προκαταβλητέος Φόρος Αρχιτεκτόνων και Μηχανικών επί Συμβατικών Αμοιβών, για Εκπόνηση Μελετών και Σχεδίων 4%",
-        "defaultValue": 4.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 4.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "9",
         "description": "Προκαταβλητέος Φόρος Αρχιτεκτόνων και Μηχανικών επί Συμβατικών Αμοιβών, που αφορούν οποιασδήποτε άλλης φύσης έργα 10%",
-        "defaultValue": 10.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 10.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "10",
         "description": "Προκαταβλητέος Φόρος στις Αμοιβές Δικηγόρων 15%",
-        "defaultValue": 15.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 15.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "11",
         "description": "Παρακράτηση Φόρου Μισθωτών Υπηρεσιών παρ. 1 αρ. 15 ν. 4172/2013",
-        "defaultValue": 0.0,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.0,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "12",
         "description": "Παρακράτηση Φόρου Μισθωτών Υπηρεσιών παρ. 2 αρ. 15 ν. 4172/2013 - Αξιωματικών Εμπορικού Ναυτικού",
-        "defaultValue": 15.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 15.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "13",
         "description": "Παρακράτηση Φόρου Μισθωτών Υπηρεσιών παρ. 2 αρ. 15 ν. 4172/2013 - Κατώτερο Πλήρωμα Εμπορικού Ναυτικού",
-        "defaultValue": 10.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 10.0,
+            "defaultValueType": "percent"
+        }
     },
     {
         "code": "14",
         "description": "Παρακράτηση Ειδικής Εισφοράς Αλληλεγγύης",
-        "defaultValue": 0.0,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.0,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "15",
         "description": "Παρακράτηση Φόρου Αποζημίωσης λόγω Διακοπής Σχέσης Εργασίας παρ.3 αρ. 15 ν. 4172/2013",
-        "defaultValue": 0.0,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.0,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "16",
         "description": "Παρακρατήσεις συναλλαγών αλλοδαπής βάσει συμβάσεων αποφυγής διπλής φορολογίας (Σ.Α.Δ.Φ.)",
-        "defaultValue": 0.0,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.0,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "17",
         "description": "Λοιπές Παρακρατήσεις Φόρου",
-        "defaultValue": 0.0,
-        "defaultValueType": "amount"
+        "metadata": {
+            "defaultValue": 0.0,
+            "defaultValueType": "amount"
+        }
     },
     {
         "code": "18",
         "description": "Παρακράτηση Φόρου Μερίσματα περ.α παρ. 1 αρ. 64 ν. 4172/2013",
-        "defaultValue": 5.0,
-        "defaultValueType": "percent"
+        "metadata": {
+            "defaultValue": 5.0,
+            "defaultValueType": "percent"
+        }
     }
 ]
