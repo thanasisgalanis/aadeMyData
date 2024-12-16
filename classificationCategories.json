@@ -134,7 +134,10 @@
     },
     {
         "code": "category2_8",
-        "description": "Αποσβέσεις Παγίων"
+        "description": "Αποσβέσεις Παγίων",
+        "metadata": {
+            "class": "expenses"
+        }
     },
     {
         "code": "category2_9",
