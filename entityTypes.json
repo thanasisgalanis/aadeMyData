@@ -1,32 +1,26 @@
 [
     {
         "code": "1",
-        "description": "Φορολογικός Εκπρόσωπος",
-        "notes": ""
+        "description": "Φορολογικός Εκπρόσωπος"
     },
     {
         "code": "2",
-        "description": "Διαμεσολαβητής",
-        "notes": ""
+        "description": "Διαμεσολαβητής"
     },
     {
         "code": "3",
-        "description": "Μεταφορέας",
-        "notes": ""
+        "description": "Μεταφορέας"
     },
     {
         "code": "4",
-        "description": "Λήπτης του Αποστολέα (Πωλητή)",
-        "notes": ""
+        "description": "Λήπτης του Αποστολέα (Πωλητή)"
     },
     {
         "code": "5",
-        "description": "Αποστολέας (Πωλητής)",
-        "notes": ""
+        "description": "Αποστολέας (Πωλητής)"
     },
     {
         "code": "6",
-        "description": "Λοιπές Συσχετιζόμενες Οντότητες",
-        "notes": ""
+        "description": "Λοιπές Συσχετιζόμενες Οντότητες"
     }
 ]

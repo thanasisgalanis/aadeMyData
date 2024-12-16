@@ -1,198 +1,416 @@
 [
     {
         "code": "1.1",
-        "description": "Τιμολόγιο Πώλησης"
+        "description": "Τιμολόγιο Πώλησης",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "1.2",
-        "description": "Τιμολόγιο Πώλησης / Ενδοκοινοτικές Παραδόσεις"
+        "description": "Τιμολόγιο Πώλησης / Ενδοκοινοτικές Παραδόσεις",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "1.3",
-        "description": "Τιμολόγιο Πώλησης / Παραδόσεις Τρίτων Χωρών"
+        "description": "Τιμολόγιο Πώλησης / Παραδόσεις Τρίτων Χωρών",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "1.4",
-        "description": "Τιμολόγιο Πώλησης / Πώληση για Λογαριασμό Τρίτων"
+        "description": "Τιμολόγιο Πώλησης / Πώληση για Λογαριασμό Τρίτων",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "1.5",
-        "description": "Τιμολόγιο Πώλησης / Εκκαθάριση Πωλήσεων Τρίτων - Αμοιβή από Πωλήσεις Τρίτων"
+        "description": "Τιμολόγιο Πώλησης / Εκκαθάριση Πωλήσεων Τρίτων - Αμοιβή από Πωλήσεις Τρίτων",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "1.6",
-        "description": "Τιμολόγιο Πώλησης / Συμπληρωματικό Παραστατικό"
+        "description": "Τιμολόγιο Πώλησης / Συμπληρωματικό Παραστατικό",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "2.1",
-        "description": "Τιμολόγιο Παροχής"
+        "description": "Τιμολόγιο Παροχής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "2.2",
-        "description": "Τιμολόγιο Παροχής / Ενδοκοινοτική Παροχή Υπηρεσιών"
+        "description": "Τιμολόγιο Παροχής / Ενδοκοινοτική Παροχή Υπηρεσιών",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "2.3",
-        "description": "Τιμολόγιο Παροχής / Παροχή Υπηρεσιών σε λήπτη Τρίτης Χώρας"
+        "description": "Τιμολόγιο Παροχής / Παροχή Υπηρεσιών σε λήπτη Τρίτης Χώρας",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "2.4",
-        "description": "Τιμολόγιο Παροχής / Συμπληρωματικό Παραστατικό"
+        "description": "Τιμολόγιο Παροχής / Συμπληρωματικό Παραστατικό",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "3.1",
-        "description": "Τίτλος Κτήσης (μη υπόχρεος Εκδότης)"
+        "description": "Τίτλος Κτήσης (μη υπόχρεος Εκδότης)",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "3.2",
-        "description": "Τίτλος Κτήσης (άρνηση έκδοσης από υπόχρεο Εκδότη)"
+        "description": "Τίτλος Κτήσης (άρνηση έκδοσης από υπόχρεο Εκδότη)",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "5.1",
-        "description": "Πιστωτικό Τιμολόγιο / Συσχετιζόμενο"
+        "description": "Πιστωτικό Τιμολόγιο / Συσχετιζόμενο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "5.2",
-        "description": "Πιστωτικό Τιμολόγιο / Μη Συσχετιζόμενο"
+        "description": "Πιστωτικό Τιμολόγιο / Μη Συσχετιζόμενο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "6.1",
-        "description": "Στοιχείο Αυτοπαράδοσης"
+        "description": "Στοιχείο Αυτοπαράδοσης",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "6.2",
-        "description": "Στοιχείο Ιδιοχρησιμοποίησης"
+        "description": "Στοιχείο Ιδιοχρησιμοποίησης",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "7.1",
-        "description": "Συμβόλαιο - Έσοδο"
+        "description": "Συμβόλαιο - Έσοδο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "8.1",
-        "description": "Ενοίκια - Έσοδο"
+        "description": "Ενοίκια - Έσοδο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "8.2",
-        "description": "Τέλος ανθεκτικότητας κλιματικής κρίσης"
+        "description": "Τέλος ανθεκτικότητας κλιματικής κρίσης",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "8.4",
-        "description": "Απόδειξη Είσπραξης POS"
+        "description": "Απόδειξη Είσπραξης POS",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "8.5",
-        "description": "Απόδειξη Επιστροφής POS"
+        "description": "Απόδειξη Επιστροφής POS",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true,
+            "notes": ""
+        }
     },
     {
         "code": "8.6",
-        "description": "Δελτίο Παραγγελίας Εστίασης"
+        "description": "Δελτίο Παραγγελίας Εστίασης",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "9.3",
-        "description": "Δελτίο Αποστολής"
+        "description": "Δελτίο Αποστολής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "11.1",
-        "description": "Απόδειξη Λιανικής Πώλησης (ΑΛΠ)"
+        "description": "Απόδειξη Λιανικής Πώλησης (ΑΛΠ)",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "11.2",
-        "description": "Απόδειξη Παροχής Υπηρεσιών (ΑΠΥ)"
+        "description": "Απόδειξη Παροχής Υπηρεσιών (ΑΠΥ)",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "11.3",
-        "description": "Απλοποιημένο Τιμολόγιο"
+        "description": "Απλοποιημένο Τιμολόγιο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "11.4",
-        "description": "Πιστωτικό Στοιχ. Λιανικής"
+        "description": "Πιστωτικό Στοιχ. Λιανικής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "11.5",
-        "description": "Απόδειξη Λιανικής Πώλησης για Λογ/σμό Τρίτων"
+        "description": "Απόδειξη Λιανικής Πώλησης για Λογ/σμό Τρίτων",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": true
+        }
     },
     {
         "code": "13.1",
-        "description": "Έξοδα - Αγορές Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής"
+        "description": "Έξοδα - Αγορές Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.2",
-        "description": "Παροχή Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής"
+        "description": "Παροχή Λιανικών Συναλλαγών ημεδαπής / αλλοδαπής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.3",
-        "description": "Κοινόχρηστα"
+        "description": "Κοινόχρηστα",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.4",
-        "description": "Συνδρομές"
+        "description": "Συνδρομές",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.30",
-        "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)"
+        "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "13.31",
-        "description": "Πιστωτικό Στοιχ. Λιανικής ημεδαπής / αλλοδαπής"
+        "description": "Πιστωτικό Στοιχ. Λιανικής ημεδαπής / αλλοδαπής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.1",
-        "description": "Τιμολόγιο / Ενδοκοινοτικές Αποκτήσεις "
+        "description": "Τιμολόγιο / Ενδοκοινοτικές Αποκτήσεις ",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.2",
-        "description": "Τιμολόγιο / Αποκτήσεις Τρίτων Χωρών"
+        "description": "Τιμολόγιο / Αποκτήσεις Τρίτων Χωρών",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.3",
-        "description": "Τιμολόγιο / Ενδοκοινοτική Λήψη Υπηρεσιών"
+        "description": "Τιμολόγιο / Ενδοκοινοτική Λήψη Υπηρεσιών",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.4",
-        "description": "Τιμολόγιο / Λήψη Υπηρεσιών Τρίτων Χωρών"
+        "description": "Τιμολόγιο / Λήψη Υπηρεσιών Τρίτων Χωρών",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.5",
-        "description": "ΕΦΚΑ και λοιποί Ασφαλιστικοί Οργανισμοί"
+        "description": "ΕΦΚΑ και λοιποί Ασφαλιστικοί Οργανισμοί",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.30",
-        "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)"
+        "description": "Παραστατικά Οντότητας ως Αναγράφονται από την ίδια (Δυναμικό)",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "14.31",
-        "description": "Πιστωτικό ημεδαπής / αλλοδαπής"
+        "description": "Πιστωτικό ημεδαπής / αλλοδαπής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "15.1",
-        "description": "Συμβόλαιο - Έξοδο"
+        "description": "Συμβόλαιο - Έξοδο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "16.1",
-        "description": "Ενοίκιο Έξοδο"
+        "description": "Ενοίκιο Έξοδο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "17.1",
-        "description": "Μισθοδοσία"
+        "description": "Μισθοδοσία",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "17.2",
-        "description": "Αποσβέσεις"
+        "description": "Αποσβέσεις",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "17.3",
-        "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων - Λογιστική Βάση"
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων - Λογιστική Βάση",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "17.4",
-        "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων - Φορολογική Βάση"
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων - Φορολογική Βάση",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "17.5",
-        "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων - Λογιστική Βάση"
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων - Λογιστική Βάση",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     },
     {
         "code": "17.6",
-        "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων - Φορολογική Βάση"
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων - Φορολογική Βάση",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Διαθέσιμο μόνο για αποστολή δεδομένωω μέσω ERP."
+        }
     }
 ]
