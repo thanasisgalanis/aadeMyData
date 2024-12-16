@@ -1,0 +1,188 @@
+[
+    {
+        "code": "category1_1",
+        "description": "Έσοδα από Πώληση Εμπορευμάτων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_2",
+        "description": "Έσοδα από Πώληση Προϊόντων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_3",
+        "description": "Έσοδα από Παροχή Υπηρεσιών",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_4",
+        "description": "Έσοδα από Πώληση Παγίων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_5",
+        "description": "Λοιπά Έσοδα/ Κέρδη",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_6",
+        "description": "Αυτοπαραδόσεις / Ιδιοχρησιμοποιήσεις",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_7",
+        "description": "Έσοδα για λ/σμο τρίτων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_8",
+        "description": "Έσοδα προηγούμενων χρήσεων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_9",
+        "description": "Έσοδα επομένων χρήσεων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_10",
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εσόδων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category1_95",
+        "description": "Λοιπά Πληροφοριακά Στοιχεία Εσόδων",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category3",
+        "description": "Διακίνηση",
+        "metadata": {
+            "class": "income"
+        }
+    },
+    {
+        "code": "category2_1",
+        "description": "Αγορές Εμπορευμάτων",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_2",
+        "description": "Αγορές Α'-Β' Υλών",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_3",
+        "description": "Λήψη Υπηρεσιών",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_4",
+        "description": "Γενικά Έξοδα με δικαίωμα έκπτωσης ΦΠΑ",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_5",
+        "description": "Γενικά Έξοδα χωρίς δικαίωμα έκπτωσης ΦΠΑ",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_6",
+        "description": "Αμοιβές και Παροχές προσωπικού",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_7",
+        "description": "Αγορές Παγίων",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_8",
+        "description": "Αποσβέσεις Παγίων"
+    },
+    {
+        "code": "category2_9",
+        "description": "Έξοδα για λ/σμο τρίτων",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_10",
+        "description": "Έξοδα προηγούμενων χρήσεων",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_11",
+        "description": "Έξοδα επομένων χρήσεων",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_12",
+        "description": "Λοιπές Εγγραφές Τακτοποίησης Εξόδων",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_13",
+        "description": "Αποθέματα Έναρξης Περιόδου",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_14",
+        "description": "Αποθέματα Λήξης Περιόδου",
+        "metadata": {
+            "class": "expenses"
+        }
+    },
+    {
+        "code": "category2_95",
+        "description": "Λοιπά Πληροφοριακά Στοιχεία Εξόδων",
+        "metadata": {
+            "class": "expenses"
+        }
+    }
+]
