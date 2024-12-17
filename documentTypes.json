@@ -164,8 +164,7 @@
         "description": "Απόδειξη Επιστροφής POS",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true,
-            "notes": ""
+            "availableForProvider": true
         }
     },
     {
