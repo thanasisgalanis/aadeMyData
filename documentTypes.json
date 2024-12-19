@@ -4,7 +4,8 @@
         "description": "Τιμολόγιο Πώλησης",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -12,7 +13,8 @@
         "description": "Τιμολόγιο Πώλησης / Ενδοκοινοτικές Παραδόσεις",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -20,7 +22,8 @@
         "description": "Τιμολόγιο Πώλησης / Παραδόσεις Τρίτων Χωρών",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -28,7 +31,8 @@
         "description": "Τιμολόγιο Πώλησης / Πώληση για Λογαριασμό Τρίτων",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -36,7 +40,8 @@
         "description": "Τιμολόγιο Πώλησης / Εκκαθάριση Πωλήσεων Τρίτων - Αμοιβή από Πωλήσεις Τρίτων",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -44,7 +49,8 @@
         "description": "Τιμολόγιο Πώλησης / Συμπληρωματικό Παραστατικό",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -52,7 +58,8 @@
         "description": "Τιμολόγιο Παροχής",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -60,7 +67,8 @@
         "description": "Τιμολόγιο Παροχής / Ενδοκοινοτική Παροχή Υπηρεσιών",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -68,7 +76,8 @@
         "description": "Τιμολόγιο Παροχής / Παροχή Υπηρεσιών σε λήπτη Τρίτης Χώρας",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -76,7 +85,8 @@
         "description": "Τιμολόγιο Παροχής / Συμπληρωματικό Παραστατικό",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -84,7 +94,8 @@
         "description": "Τίτλος Κτήσης (μη υπόχρεος Εκδότης)",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -92,7 +103,8 @@
         "description": "Τίτλος Κτήσης (άρνηση έκδοσης από υπόχρεο Εκδότη)",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -100,7 +112,8 @@
         "description": "Πιστωτικό Τιμολόγιο / Συσχετιζόμενο",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -108,7 +121,8 @@
         "description": "Πιστωτικό Τιμολόγιο / Μη Συσχετιζόμενο",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -132,7 +146,8 @@
         "description": "Συμβόλαιο - Έσοδο",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -140,7 +155,8 @@
         "description": "Ενοίκια - Έσοδο",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
@@ -180,7 +196,8 @@
         "description": "Δελτίο Αποστολής",
         "metadata": {
             "availableForERP": true,
-            "availableForProvider": true
+            "availableForProvider": true,
+            "requiresCounterparty": true
         }
     },
     {
