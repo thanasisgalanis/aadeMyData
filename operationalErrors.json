@@ -1,0 +1,38 @@
+[
+    {
+        "code": 101,
+        "message": "Σφάλμα επικύρωσης σύνταξης XML"
+    },
+    {
+        "code": 102,
+        "message": "Ο ΑΦΜ δεν ανήκει σε ενεργή εταιρεία"
+    },
+    {
+        "code": 103,
+        "message": "Περάστε το MARK στις παραμέτρους αιτήματος"
+    },
+    {
+        "code": 104,
+        "message": "Το αιτούμενο τιμολόγιο δεν βρέθηκε"
+    },
+    {
+        "code": 105,
+        "message": "Ο ΑΦΜ χρήστη δεν είναι εξουσιοδοτημένος να εκτελέσει αυτήν τη μέθοδο για τον ΑΦΜ"
+    },
+    {
+        "code": 204,
+        "message": ""
+    },
+    {
+        "code": 207,
+        "message": "The sum of net values of the invoice lines doesn't match with total net value of the invoice"
+    },
+    {
+        "code": 208,
+        "message": "The sum of gross values of the invoice lines doesn't match with total gross value of the invoice"
+    },
+    {
+        "code":209,
+        "message": "The sum of deductions amount of the invoice lines doesn't match with total deductions amount of the invoice"
+    }
+]
