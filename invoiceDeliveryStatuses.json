@@ -1,0 +1,58 @@
+[
+    {
+        "code": "1",
+        "description": "Registered",
+        "metadata": {
+            "explanation": "Το ΔΑ έχει εκδοθεί επιτυχώς."
+        }
+    },
+    {
+        "code": "2",
+        "description": "Cancelled",
+        "metadata": {
+            "explanation": "Ο εκδότης ακύρωσε το ΔΑ πριν την έναρξη της διακίνησης."
+        }
+    },
+    {
+        "code": "3",
+        "description": "InTransit",
+        "metadata": {
+            "explanation": "Η διακίνηση έχει ξεκινήσει."
+        }
+    },
+    {
+        "code": "4",
+        "description": "Rejected",
+        "metadata": {
+            "explanation": "Ο λήπτης απέρριψε την παραλαβή."
+        }
+    },
+    {
+        "code": "5",
+        "description": "DeliveredByCarrier",
+        "metadata": {
+            "explanation": "Ο μεταφορέας δήλωσε παράδοση (αναμονή επιβεβαίωσης από λήπτη B2B)."
+        }
+    },
+    {
+        "code": "7",
+        "description": "FailedDelivery",
+        "metadata": {
+            "explanation": "Ο μεταφορέας δήλωσε αποτυχία παράδοσης."
+        }
+    },
+    {
+        "code": "8",
+        "description": "Completed",
+        "metadata": {
+            "explanation": "Η διακίνηση ολοκληρώθηκε με επιτυχία."
+        }
+    },
+    {
+        "code": "9",
+        "description": "InTransit (Return)",
+        "metadata": {
+            "explanation": "Ο μεταφορέας επιστρέφει με εμπόρευμα"
+        }
+    }
+]

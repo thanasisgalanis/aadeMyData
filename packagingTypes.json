@@ -1,0 +1,26 @@
+[
+    {
+        "code": "1",
+        "description": "Παλέτα"
+    },
+    {
+        "code": "2",
+        "description": "Κούτα"
+    },
+    {
+        "code": "3",
+        "description": "Κιβώτιο"
+    },
+    {
+        "code": "4",
+        "description": "Βαρέλι"
+    },
+    {
+        "code": "5",
+        "description": "Σάκος"
+    },
+    {
+        "code": "6",
+        "description": "Λοιπά"
+    }
+]

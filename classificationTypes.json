@@ -710,7 +710,8 @@
         "code": "E3_585_017",
         "description": "Διάφορα λειτουργικά έξοδα Ζ2",
         "metadata": {
-            "class": "expenses"
+            "class": "expenses",
+            "notes": "Περιλαμβάνεται στον πίνακα 8.11 και στους συνδυασμούς χαρακτηρισμών v2.0.2, όχι όμως στο XSD v2.0.2 (SimpleTypes, ExpensesClassificationValueType)."
         }
     },
     {
@@ -798,7 +799,7 @@
         }
     },
     {
-        "code": "E34_883_00",
+        "code": "E3_883_004",
         "description": "Αγορές μη ενσώματων παγίων χρήσης/Εξωτερικού Τρίτες Χώρες",
         "metadata": {
             "class": "expenses"
