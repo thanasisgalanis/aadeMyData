@@ -1,38 +1,1010 @@
 [
     {
         "code": 101,
-        "message": "Σφάλμα επικύρωσης σύνταξης XML"
+        "statusCode": "XMLSyntaxError",
+        "element": "Application",
+        "message": "Σφάλμα επικύρωσης σύνταξης XML",
+        "messageEn": "XML Syntax Validation Error"
     },
     {
         "code": 102,
-        "message": "Ο ΑΦΜ δεν ανήκει σε ενεργή εταιρεία"
+        "statusCode": "ValidationError",
+        "element": "Application",
+        "message": "Ο ΑΦΜ {ΑΦΜ} δεν ανήκει σε ενεργή εταιρεία",
+        "messageEn": "Vat number {vatNumber} does not belong to active corporation"
     },
     {
         "code": 103,
-        "message": "Περάστε το MARK στις παραμέτρους αιτήματος"
+        "statusCode": "ValidationError",
+        "element": "Application",
+        "message": "Περάστε το MARK στις παραμέτρους αιτήματος",
+        "messageEn": "Please pass mark in the request parameters"
     },
     {
         "code": 104,
-        "message": "Το αιτούμενο τιμολόγιο δεν βρέθηκε"
+        "statusCode": "ValidationError",
+        "element": "Application",
+        "message": "Το αιτούμενο τιμολόγιο δεν βρέθηκε",
+        "messageEn": "Requested Invoice was not found"
     },
     {
         "code": 105,
-        "message": "Ο ΑΦΜ χρήστη δεν είναι εξουσιοδοτημένος να εκτελέσει αυτήν τη μέθοδο για τον ΑΦΜ"
+        "statusCode": "ValidationError",
+        "element": "Application",
+        "message": "Ο ΑΦΜ χρήστη {ΑΦΜ} δεν είναι εξουσιοδοτημένος να εκτελέσει αυτήν τη μέθοδο για τον ΑΦΜ {ΑΦΜ}",
+        "messageEn": "User VAT number {vatNumber} is not authorized to execute this method for VAT number {vatNumber}"
+    },
+    {
+        "code": 201,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο ΑΦΜ χρήστη {ΑΦΜ} δεν είναι εξουσιοδοτημένος να εκτελέσει αυτήν τη μέθοδο",
+        "messageEn": "User VAT number {vatNumber} is not authorized to execute this method"
+    },
+    {
+        "code": 202,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Μη έγκυρος ελληνικός ΑΦΜ",
+        "messageEn": "Invalid Greek VAT number"
+    },
+    {
+        "code": 203,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η Ακαθάριστη Αξία δεν ταιριάζει με το άθροισμα της καθαρής αξίας συν τους φόρους",
+        "messageEn": "Gross Value doesn't match with sum of net value plus taxes"
     },
     {
         "code": 204,
-        "message": ""
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} είναι υποχρεωτικό για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "{Field} is mandatory for this invoice type"
+    },
+    {
+        "code": 205,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} είναι απαγορευμένο για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "{Field} is forbidden for this invoice type"
+    },
+    {
+        "code": 206,
+        "statusCode": "TechnicalError",
+        "element": "Invoice",
+        "message": "Μη αναμενόμενο τεχνικό σφάλμα για τη γραμμή τιμολογίων",
+        "messageEn": "Unexpected technical error for invoice line"
     },
     {
         "code": 207,
-        "message": "The sum of net values of the invoice lines doesn't match with total net value of the invoice"
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το άθροισμα των καθαρών αξιών των γραμμών τιμολογίου δεν ταιριάζει με τη συνολική καθαρή αξία του τιμολογίου",
+        "messageEn": "The sum of net values of the invoice lines doesn't match with total net value of the invoice"
     },
     {
         "code": 208,
-        "message": "The sum of gross values of the invoice lines doesn't match with total gross value of the invoice"
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το άθροισμα των μικτών αξιών των γραμμών τιμολογίου δεν ταιριάζει με τη συνολική ακαθάριστη αξία του τιμολογίου",
+        "messageEn": "The sum of gross values of the invoice lines doesn't match with total gross value of the invoice"
     },
     {
-        "code":209,
-        "message": "The sum of deductions amount of the invoice lines doesn't match with total deductions amount of the invoice"
+        "code": 209,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το άθροισμα του ποσού ΦΠΑ των γραμμών τιμολογίου δεν ταιριάζει με το συνολικό ποσό ΦΠΑ του τιμολογίου",
+        "messageEn": "The sum of vat amount of the invoice lines doesn't match with total vat amount of the invoice"
+    },
+    {
+        "code": 210,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το άθροισμα του παρακρατηθέντος ποσού των γραμμών τιμολογίου δεν ταιριάζει με το συνολικό παρακρατούμενο ποσό του τιμολογίου",
+        "messageEn": "The sum of withheld amount of the invoice lines doesn't match with total withheld amount of the invoice"
+    },
+    {
+        "code": 211,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η συναλλαγματική ισοτιμία πρέπει να είναι μεγαλύτερη από 0 όταν το νόμισμα δεν είναι ευρώ",
+        "messageEn": "Exchange Rate must be greater than 0 when the currency is not Euro"
+    },
+    {
+        "code": 212,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το στοιχείο AA πρέπει να είναι αριθμός με τιμή μεταξύ 0 και 18446744073709551615 για εκδότη από την Ελλάδα",
+        "messageEn": "AA element must be number with value between 0 and 18446744073709551615 for issuer from Greece"
+    },
+    {
+        "code": 213,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} πρέπει να έχει τιμή 0 για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "{Field} must have value 0 for this invoice type"
+    },
+    {
+        "code": 214,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το στοιχείο {Στοιχείο} πρέπει να αποσταλεί μόνο εάν είναι αληθές",
+        "messageEn": "Element {Element} must be sent only if it is true"
+    },
+    {
+        "code": 215,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η κατηγορία ΦΠΑ πρέπει να έχει τιμή {τιμή} για αυτόν τον τύπο τιμολογίου [Πιθανές τιμές {τιμή}:",
+        "messageEn": "{7, 8}] Vat category must have value {value} for this invoice type [Possible { value } values: { 7, 8}"
+    },
+    {
+        "code": 216,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η κατηγορία ΦΠΑ πρέπει να έχει αξία διαφορετική από 8 για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "Vat category must have value other than 8 for this invoice type"
+    },
+    {
+        "code": 217,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Όταν η Κατηγορία ΦΠΑ έχει τιμή 7, το στοιχείο Κατηγορία Απαλλαγής ΦΠΑ είναι υποχρεωτικό",
+        "messageEn": "When vatCategory has value 7, element vatExemptionCategory is mandatory"
+    },
+    {
+        "code": 218,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το Ποσό ΦΠΑ πρέπει να έχει τιμή 0 για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "Vat Amount must have value 0 for this invoice type"
+    },
+    {
+        "code": 219,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το Όνομα Εκδότη απαγορεύεται για τον Εκδότη από την Ελλάδα",
+        "messageEn": "Issuer Name is forbidden for Issuer from Greece"
+    },
+    {
+        "code": 220,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το όνομα Αντισυμβαλλόμενος απαγορεύεται για τον Αντισυμβαλλόμενο από την Ελλάδα",
+        "messageEn": "Counterpart Name is forbidden for Counterpart from Greece"
+    },
+    {
+        "code": 221,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} είναι απαγορευμένο για τις γραμμές που έχουν Τύπο Στοιχείου Τιμολογίου = 2 για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "{Field} is forbidden for the lines that have invoiceDetailType = 2 for this invoice type"
+    },
+    {
+        "code": 222,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} πρέπει να έχει τιμή μεγαλύτερη από 0 για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "{Field} must have value greater than 0 for this invoice type"
+    },
+    {
+        "code": 223,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Μη υποστηριζόμενος τύπος τιμολογίου",
+        "messageEn": "Unsupported invoice type"
+    },
+    {
+        "code": 224,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Επιτρέπονται φόροι είτε ανά γραμμή τιμολογίου είτε ανά τιμολόγιο (όχι και στα δύο)",
+        "messageEn": "Taxes are allowed either per invoice line or per invoice (not in both)"
+    },
+    {
+        "code": 225,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} πρέπει να υπάρχει (δεν μπορεί να είναι κενό) καθώς το {Πεδίο} δεν είναι κενό (γραμμή τιμολογίου {Αριθμός Γραμμής})",
+        "messageEn": "{Field} must exist (cannot be null) since the {Field} is not null (invoice line {lineNumber})"
+    },
+    {
+        "code": 226,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το άθροισμα του ποσού {Πεδίο} του τιμολογίου {ενότητα} δεν ταιριάζει με το συνολικό ποσό {Πεδίο} του τιμολογίου",
+        "messageEn": "The sum of {field} amount of the invoice {section} doesn't match with total {field} amount of the invoice"
+    },
+    {
+        "code": 227,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο1} δεν μπορεί να υπάρχει (πρέπει να είναι κενό) καθώς το {Πεδίο1} είναι κενό (γραμμή τιμολογίου: {Αριθμός Γραμμής}) [Πιθανές τιμές {Πεδίο1, Πεδίο2}: {'Ποσό Τελών', Κατηγορία Ποσοστού Τελών'}, {'Ποσό Ψηφιακού Τέλους συναλλαγής,' Κατηγορία Ποσοστού Ψηφιακού Τέλους συναλλαγής}, {'Παρακρατηθέν Ποσό', 'Κατηγορία Παρακρατηθέντος Ποσοστού'}]",
+        "messageEn": "{Field1} cannot exist (must be null) since the {Field1} is null (invoice line : {lineNumber}) [ Possible {Field1, Field 2} values: {‘feesAmount’, feesPercentCategory’}, {‘stampDutyAmount, ‘stampDutyPercentCategory’ }, {‘withheldAmount’, ‘withheldPercentCategory’}]"
+    },
+    {
+        "code": 228,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} δεν είναι έγκυρο [Πιθανές τιμές {Πεδίο}: {UID, Τύπος Τιμολογίου} [Αφορά μόνο τους παρόχους]",
+        "messageEn": "{Field} is invalid [Possible {Field} values: { UID, InvoiceType} [Αφορά μόνο τους παρόχους]"
+    },
+    {
+        "code": 229,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο1} δεν είναι σωστό σύμφωνα με το δεδομένο: {Πεδίο2} (γραμμή τιμολογίου: {Αριθμός Γραμμής}) [Πιθανές τιμές {Πεδίο1, Πεδίο2}: {'Ποσό Τελών', Κατηγορία Ποσοστού Τελών'}, {'Ποσό Ψηφιακού Τέλους συναλλαγής,' Κατηγορία Ποσοστού Ψηφιακού Τέλους συναλλαγής}, {'Παρακρατηθέν Ποσό', 'Κατηγορία Παρακρατηθέντος Ποσοστού'}] [Αφορά μόνο τους παρόχους]",
+        "messageEn": "{Field1} is not correct according to the given: {Field2} (invoice line: {lineNumber}) [ Possible {Field1, Field 2} values: {‘feesAmount’, feesPercentCategory’}, {‘stampDutyAmount, ‘stampDutyPercentCategory’}, {‘withheldAmount’, ‘withheldPercentCategory’}] [Αφορά μόνο τους παρόχους]"
+    },
+    {
+        "code": 230,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} είναι υποχρεωτικό για στοιχεία τιμολογίου (αριθμός} [Πιθανές τιμές {Πεδίο} : {Ταξινομήσεις E3, ταξινομήσεις ΦΠΑ}",
+        "messageEn": "{Field} is mandatory for invoice detail (number} [Possible {Field} values: { E3 classifications, VAT classifications}"
+    },
+    {
+        "code": 231,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} απαγορεύεται για στοιχεία τιμολογίου (αριθμός} [Πιθανές τιμές {Πεδίο} : {Ταξινομήσεις E3, ταξινομήσεις ΦΠΑ}",
+        "messageEn": "{Field} is forbidden for invoice detail (number} [Possible {Field} values: { E3 classifications, VAT classifications}"
+    },
+    {
+        "code": 233,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "UID: Το \" + {uid} + \" έχει ήδη σταλεί [Αφορά μόνο τους παρόχους] [Αφορά μόνο τους παρόχους]",
+        "messageEn": "UID: \" + {uid} + \" has already been sent"
+    },
+    {
+        "code": 234,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Οι τιμές 7 ή 8 δεν επιτρέπονται για την κατηγορία ΦΠΑ για αυτόν τον τύπο τιμολογίου",
+        "messageEn": "The values 7 or 8 are not allowed for Vat Category for this invoice type"
+    },
+    {
+        "code": 235,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο εκδότης πρέπει να είναι διαφορετικός από τον αντίστοιχο",
+        "messageEn": "Issuer must be different from counterpart"
+    },
+    {
+        "code": 236,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο Αποστολέας (ΑΦΜ): \" + {ΑΦΜ} + \" πρέπει να είναι διαφορετικός από τον εκδότη (ΑΦΜ)",
+        "messageEn": "The Sender (vatnumber): \" + {afm} + \" must be different from the issuer (vatnumber)"
+    },
+    {
+        "code": 237,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η υποκείμενη αξία(εις) των φόρων δεν μπορεί να είναι μεγαλύτερη από τη συνολική καθαρή αξία του τιμολογίου",
+        "messageEn": "Underlying Value(s) of taxes cannot be greater than the total net value of invoice"
+    },
+    {
+        "code": 239,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο φόρος (α) των φόρων δεν μπορεί να είναι μεγαλύτερος από τη συνολική καθαρή αξία του τιμολογίου",
+        "messageEn": "Taxamount(s) of taxes cannot be greater than the total net value of invoice"
+    },
+    {
+        "code": 240,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ποσό Φόρου {Ποσό Φόρου} της Γραμμής Φόρου: Το {A/A} δεν μπορεί να είναι μεγαλύτερο από την αντίστοιχη υποκείμενη αξία",
+        "messageEn": "Taxamount {Taxamount } of taxline: {A/A} cannot be greater than the corresponding underlying value"
+    },
+    {
+        "code": 241,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο1} δεν μπορεί να είναι μεγαλύτερο από την αντίστοιχη καθαρή αξία γραμμής τιμολογίου (Γραμμή Τιμολογίου: + {αριθμός γραμμής}) [Πιθανές τιμές {Πεδίο1}: {'Ποσό Τελών', 'Ποσό Ποσοστού Λοιπών Φόρων', 'Ποσό Τέλους Ψηφιακού Τέλους συναλλαγής, 'Παρακρατηθέν Ποσό'}]",
+        "messageEn": "{Field1} cannot be greater than the corresponding invoiceline net value (invoice line: + {linenumber} ) [ Possible {Field1} values: {‘feesAmount’, ‘otherTaxesPercentAmount’, ‘stampDutyAmount, ‘withheldAmount’}]"
+    },
+    {
+        "code": 242,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η χώρα του {Πεδίο} για αυτόν τον τύπο τιμολογίου πρέπει να είναι η Ελλάδα [Πιθανές τιμές {Πεδίο}: {Εκδότης, Αντισυμβαλλόμενος}",
+        "messageEn": "{Field} 's country for this invoice type must be Greece [Possible {Field} values: {Issuer, Counterpart}"
+    },
+    {
+        "code": 243,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η χώρα του {Πεδίο} για αυτόν τον τύπο τιμολογίου πρέπει να είναι στην Ευρώπη αλλά όχι στην Ελλάδα [Πιθανές τιμές {Πεδίο}: {Εκδότης, Αντισυμβαλλόμενος}",
+        "messageEn": "{Field} 's country for this invoice type must be in Europe but not Greece [Possible {Field} values: {Issuer, Counterpart}"
+    },
+    {
+        "code": 244,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η χώρα του {Πεδίο} για αυτόν τον τύπο τιμολογίου δεν πρέπει να είναι στην ΕΕ [Πιθανές τιμές {Πεδίο}: {Εκδότης, Αντισυμβαλλόμενος}",
+        "messageEn": "{Field} 's country for this invoice type must not be in EU [Possible {Field} values: {Issuer, Counterpart}"
+    },
+    {
+        "code": 245,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο πάροχος δεν είναι εξουσιοδοτημένος να εκδίδει τιμολόγια για: {ΑΦΜ}",
+        "messageEn": "Provider is not authorised to issue Invoices for: {vatNumber}"
+    },
+    {
+        "code": 246,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο τύπου 1.5 πρέπει να έχει τουλάχιστον μία γραμμή με: Τύπος Στοιχείου = 1 και μία με: Τύπος Στοιχείου = 2",
+        "messageEn": "Invoice of type 1.5 must have at least one line with detailtype = 1 and one with detail type=2"
+    },
+    {
+        "code": 247,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Γραμμή τιμολογίου: {Αριθμός Γραμμής}. Το {Πεδίο} είναι απαγορευμένο. [Πιθανές τιμές {Πεδίο}: {Τύπος rec =1, Τύπος rec =4, Τύπος rec =5}",
+        "messageEn": "Invoice line: {lineNumber}. {Field} is forbidden. [Possible {Field} values: {recType=1, recType=4, recType=5}"
+    },
+    {
+        "code": 248,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί επειδή δεν δημοσιεύτηκε από τον ΑΦΜ {ΑΦΜ}",
+        "messageEn": "Invoice with MARK {mark} cannot be cancelled because was not posted by VAT number {vat}"
+    },
+    {
+        "code": 249,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί λόγω δημοσίευσης από τον πάροχο",
+        "messageEn": "Invoice with MARK {mark} cannot be cancelled because of being posted by provider"
+    },
+    {
+        "code": 250,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί επειδή δημοσιεύτηκε από την τιμολόγηση myDATA",
+        "messageEn": "Invoice with MARK {mark} cannot be cancelled because of being posted by myDATA Invoicing"
+    },
+    {
+        "code": 251,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί επειδή έχει ήδη ακυρωθεί",
+        "messageEn": "Invoice with MARK {mark} cannot be cancelled because of being already cancelled"
+    },
+    {
+        "code": 252,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η εγγραφή με δεν είναι έγκυρο τιμολόγιο",
+        "messageEn": "MARK {mark} Record with MARK {mark} is not a valid Invoice"
+    },
+    {
+        "code": 253,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η Ημερομηνία Έκδοσης δεν είναι έγκυρη, πρέπει να είναι μεγαλύτερη ή ίση με {ημερομηνία} και μικρότερη ή ίση με την τρέχουσα ημερομηνία [Δεν αφορά τους παρόχους] [Δεν αφορά τους παρόχους]",
+        "messageEn": "IssueDate is invalid, it must be greater or equal than {date} and less or equal than current date"
+    },
+    {
+        "code": 254,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Γραμμή Φόρου (Σύνολα Φόρου): + {Αριθμός Γραμμής Φόρου}. Το {Πεδίο + Δεδομένα Πεδίου} απαγορεύεται",
+        "messageEn": "TaxLine (TaxTotals) : + {taxlinenumber} . {field + fieldData} is forbidden"
+    },
+    {
+        "code": 255,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί επειδή είναι συνδεδεμένο με ενεργό τιμολόγιο με",
+        "messageEn": "MARK {mark1} Invoice with MARK {mark} cannot be cancelled because it is connected with active invoice with MARK {mark1}"
+    },
+    {
+        "code": 256,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με {mark} δεν μπορεί να ταξινομηθεί επειδή έχει ήδη ακυρωθεί",
+        "messageEn": "MARK Invoice with MARK {mark} cannot be classified because of being already cancelled"
+    },
+    {
+        "code": 257,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί επειδή έχει αναρτηθεί από το Φορολογικό Μητρώο",
+        "messageEn": "Invoice with MARK {mark} cannot be cancelled because of being posted by TaxRegister"
+    },
+    {
+        "code": 258,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Όλες οι σειρές τιμολογίων πρέπει να έχουν {Πεδίο} [Πιθανές τιμές {Πεδίο}: {Τύπος rec =3}",
+        "messageEn": "All invoice rows should have {Field} [Possible {Field} values: {recType=3}"
+    },
+    {
+        "code": 259,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο δεν μπορεί να αναρτηθεί επειδή αντικαθιστά το τιμολόγιο με MARK {mark} που έχει το ίδιο UID και εξακολουθεί να συνδέεται με ενεργά τιμολόγια",
+        "messageEn": "Invoice cannot be posted because it replaces invoice with MARK {mark} having same UID and is still connected with active invoices"
+    },
+    {
+        "code": 260,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η Ημερομηνία Έκδοσης δεν είναι έγκυρη, πρέπει να είναι μικρότερη ή ίση με την τρέχουσα ημερομηνία",
+        "messageEn": "IssueDate is invalid, it must be less or equal than current date"
+    },
+    {
+        "code": 261,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Κάθε σειρά τιμολογίου πρέπει να έχει μοναδικό αριθμό γραμμής",
+        "messageEn": "Each Invoice row must have unique line number"
+    },
+    {
+        "code": 262,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το μήκος {Πεδίο} πρέπει να είναι μικρότερο ή ίσο από το {αριθμός}",
+        "messageEn": "{field} length must be less or equal than {number}"
+    },
+    {
+        "code": 263,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με Τύπο Τροποποίησης Τιμολογίου {Πεδίο} και Ημερομηνία Έκδοσης {Ημερομηνία Έκδοσης} δεν μπορεί να σταλεί νωρίτερα από {ημερομηνία} [Πιθανές τιμές {Πεδίο}: {Τύπος Τροποποίησης Τιμολογίου =1,2,3,4}",
+        "messageEn": "Invoice with invoiceVariationType {field} and IssueDate {issueDate} cannot be sent earlier than { date} [Possible {field} values: {invoiceVariationType=1,2,3,4}"
+    },
+    {
+        "code": 264,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με Τύπο Τροποποίησης Τιμολογίου {Πεδίο} δεν μπορεί να σταλεί για έτος Ημερομηνίας Έκδοσης νωρίτερα από το 2021 [Πιθανές τιμές {Πεδίο}: {Τύπος Τροποποίησης Τιμολογίου=1,2,3,4}",
+        "messageEn": "Invoice with invoiceVariationType {field} cannot be sent for issueDate's year ear lier than 2021 [Possible {f ield} values: {invoiceVariationType=1,2,3, 4}"
+    },
+    {
+        "code": 265,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο μέγιστος επιτρεπόμενος αριθμός τιμολογίων που περιέχονται σε ένα μήνυμα είναι 5000",
+        "messageEn": "The maximum allowed number of invoices contained in one message is 5000"
+    },
+    {
+        "code": 266,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {msg11} είναι απαγορευμένο {msg2} [Πιθανές τιμές {msg1}: {'Τιμολόγιο με πεδίο Τύπος Ειδικής Κατηγορίας Τιμολογίου με τιμή 4 (αφορολόγητο τιμολόγιο)'} [Πιθανές τιμές {msg2}: {'για τιμολόγια που αποστέλλονται από το κανάλι παρόχου'}",
+        "messageEn": "{msg11} is forbidden {msg2} [Possible {msg1} values: {‘Invoice with SpecialInvoiceCategoryType field with value 4 (taxfree invoice)’} [Possible {msg2} values: {‘for invoices sent by provider channel’}"
+    },
+    {
+        "code": 267,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {msg11} επιτρέπεται {msg2} [Πιθανές τιμές {msg1}: {'Τιμολόγιο με πεδίο Τύπος Ειδικής Κατηγορίας Τιμολογίου με τιμή 4 (αφορολόγητο τιμολόγιο)'} [Πιθανές τιμές {msg2}: {'μόνο για τιμολόγια που αποστέλλονται από κανάλι erp ή timologio'}",
+        "messageEn": "{msg11} is allowed {msg2} [Possible {msg1} values: {‘Invoice with SpecialInvoiceCategoryType field with value 4 (taxfree invoice)’} [Possible {msg2} values: {‘only for invoices sent by erp or timologio channel’}"
+    },
+    {
+        "code": 268,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Στην περίπτωση του Τιμολογίου Καυσίμων, τουλάχιστον μία γραμμή πρέπει να έχει Κωδικό Καυσίμων διαφορετικό από το 999",
+        "messageEn": "In case of fuelInvoice, at least one line must have fuelCode different from 999"
+    },
+    {
+        "code": 269,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Στην περίπτωση του Τιμολογίου Καυσίμων, η καθαρή αξία της γραμμής τιμολογίου με τον Κωδικό Καυσίμων 999 πρέπει να είναι μικρότερη ή ίση από το άθροισμα των καθαρών αξιών των άλλων γραμμών τιμολογίων",
+        "messageEn": "In case of fuelInvoice, the net value of the invoice line with fuelCode 999 must be less or equal than sum of net values of the other invoice lines"
+    },
+    {
+        "code": 270,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Στην περίπτωση του Τιμολογίου Καυσίμων, μόνο μία γραμμή μπορεί να έχει Κωδικό Καυσίμων ίσο με",
+        "messageEn": "999 In case of fuelInvoice, only one line can have fuelCode equal with 999"
+    },
+    {
+        "code": 271,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Αριθμός γραμμής τιμολογίου: {αριθμός γραμμής}. Το πεδίο Κατηγορία Απαλλαγής ΦΠΑ χρησιμοποιείται μόνο στην περίπτωση Κατηγορία ΦΠΑ",
+        "messageEn": "Invoice Line Number: {linenumber}. VatExemptionCategory field is used only in case of = 7 vatCategory = 7"
+    },
+    {
+        "code": 272,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} είναι υποχρεωτικό + {Περισσότερες Πληροφορίες} [{Περισσότερες Πληροφορίες} μπορεί να είναι κενό] [{moreInfo} μπορεί να είναι",
+        "messageEn": "{field} is mandatory + {moreInfo} null]"
+    },
+    {
+        "code": 273,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} δεν επιτρέπεται + {Περισσότερες Πληροφορίες} [{περισσότερες πληροφορίες} μπορεί να είναι κενό] [{moreInfo} μπορεί να είναι",
+        "messageEn": "{field} is not allowed + {moreInfo} null]"
+    },
+    {
+        "code": 274,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {Πεδίο} είναι υποχρεωτικό για αυτόν τον τύπο τιμολογίου + {Περισσότερες Πληροφορίες} [{περισσότερες πληροφορίες} μπορεί να είναι κενό] [{moreInfo} μπορεί να είναι",
+        "messageEn": "{field} are mandatory for this invoicetype + {moreInfo} null]"
+    },
+    {
+        "code": 275,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το μήνυμα δεν μπορεί να περιέχει τιμολόγια και τιμολόγια/δελτία αποστολής με το ίδιο uid",
+        "messageEn": "The message cannot contain invoices and invoices/consignment notes with the same uid"
+    },
+    {
+        "code": 276,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το μήκος του {Πεδίο} πρέπει να είναι ίσο με τον {αριθμός}",
+        "messageEn": "{field} length must be equal with {number}"
+    },
+    {
+        "code": 277,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το μήνυμα δεν μπορεί να περιέχει τιμολόγια τύπου: {Τύπος Τιμολογίου} με το ίδιο uid",
+        "messageEn": "The message cannot contain invoices of type: {invoiceType} with the same uid"
+    },
+    {
+        "code": 278,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η Ημερομηνία Έκδοσης δεν είναι έγκυρη, πρέπει να είναι μεγαλύτερη ή ίση με την τρέχουσα ημερομηνία",
+        "messageEn": "IssueDate is invalid, it must be greater or equal with current date"
+    },
+    {
+        "code": 279,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το τιμολόγιο με MARK {mark} δεν μπορεί να ακυρωθεί + {Περισσότερες Πληροφορίες} [{περισσότερες πληροφορίες} μπορεί να είναι κενό] [{moreInfo} μπορεί να είναι",
+        "messageEn": "Invoice with MARK {mark} cannot be cancelled + {moreInfo} null]"
+    },
+    {
+        "code": 280,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η Ημερομηνία Αποστολής δεν είναι έγκυρη, πρέπει να είναι μεγαλύτερη ή ίση με την τρέχουσα ημερομηνία",
+        "messageEn": "DispatchDate is invalid, it must be greater or equal with current date"
+    },
+    {
+        "code": 281,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Τιμολόγιο τύπου 8.6 με totalCancelDeliveryOrders = αληθής, πρέπει να έχει μόνο μία σειρά. Η καθαρή αξία και το ποσό του ΦΠΑ αυτής της σειράς πρέπει να είναι ίσα με 0 και η κατηγορία του ΦΠΑ πρέπει να έχει τιμή 8",
+        "messageEn": "Invoice of type 8.6 with totalCancelDeliveryOrders = true, must have only one row. The net value and vat amount of this row must be equal with 0 and its vat category must have value 8"
+    },
+    {
+        "code": 282,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το {msg1} πρέπει να έχει τιμή μεγαλύτερη ή ίση του μηδενός για αυτό΄ν τον τύπο του παραστατικού [Πιθανές {msg1} τιμές: {‘Η καθαρή αξία κάθε γραμμής,με recType = 6,’}",
+        "messageEn": "{msg1} must have value greater or equal than 0 for this invoice type [Possible {msg1} values: {‘NetValue per line, which have recType = 6,’}"
+    },
+    {
+        "code": 283,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το παραστατικό με ΜΑΡΚ {mark} είναι {invoicetype value}. Με την CancelDeliveryNote μέθοδο μόνο 9.3 παραστατικά μπορούν να ακυρωθούν",
+        "messageEn": "Invoice with MARK {mark} is {invoiceType Value} invoice type. With CancelDeliveryNote method only 9.3 invoice type can be cancelled."
+    },
+    {
+        "code": 284,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Περάστε το ΑΦΜ οντότητας στις παραμέτρους σώμα του http αιτήματος",
+        "messageEn": "Please pass entityVatNumber in the request parameters"
+    },
+    {
+        "code": 285,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο πάροχος με {ΑΦΜ Παρόχου} δεν ε ίναι εξουσιοδοτημένος να εκτελεί αυτή τη μέθοδο για: {ΑΦΜ Οντότητας}",
+        "messageEn": "Provider with VAT number {vatNumber} is not authorised to execute this method for: {entityVatNumber}"
+    },
+    {
+        "code": 286,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Ο εκδότης πρέπει να είναι ίδιος με τον λήπτη",
+        "messageEn": "Issuer must be same with counterpart"
+    },
+    {
+        "code": 287,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η χώρα του {Πεδίο} για αυτόν τον τύπο τιμολογίου δεν πρέπει να είναι η Ελλάδα [Πιθανές τιμές {Πεδίο}: {Εκδότης, Αντισυμβαλλόμενος}",
+        "messageEn": "{Field} 's country for this invoice type must not be Greece [Possible {Field} values: {Issuer, Counterpart}"
+    },
+    {
+        "code": 288,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η υποβολή τιμολογίου επιτρέπεται εντός δύο ημερών από την ημερομηνία έκδοσης όταν το TransmissionFlag = 4",
+        "messageEn": "Invoice submission is allowed within two days from the issue date when TransmissionFlag = 4"
+    },
+    {
+        "code": 289,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το ΑΦΜ του {Πεδίο} πρέπει να είναι 000000000 [Πιθανές τιμές {Πεδίο}: {Εκδότης, Αντισυμβαλλόμενος}",
+        "messageEn": "{Field} VAT number must be 000000000 [Possible {Field} values: {Issuer’s, Counterpart’s}"
+    },
+    {
+        "code": 290,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Δεν επιτρέπονται ταυτόχρονα nonObligatedRecipient=true and withoutDigitalTransportTracking=true",
+        "messageEn": "Both nonObligatedRecipient=true and withoutDigitalTransportTracking=true are not allowed"
+    },
+    {
+        "code": 301,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Τα τιμολόγια με MARK {mark} δεν βρέθηκαν",
+        "messageEn": "Invoices with MARK {mark} requested not found"
+    },
+    {
+        "code": 302,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Διπλότυπος αριθμός γραμμής ταξινόμησης {Αριθμός Γραμμής}",
+        "messageEn": "Duplicate classification line number {lineNumber}"
+    },
+    {
+        "code": 303,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο αριθμός γραμμής {Αριθμός Γραμμής} δεν βρέθηκε στο τιμολόγιο με",
+        "messageEn": "MARK {mark} Line number {lineNumber} not found in invoice with MARK {mark}"
+    },
+    {
+        "code": 304,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Όλες οι σειρές τιμολογίων ή καμία θα πρέπει να περιλαμβάνουν ταξινομήσεις",
+        "messageEn": "All invoice rows or none should have classifications included"
+    },
+    {
+        "code": 305,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Γραμμή τιμολογίου: {Αριθμός Γραμμής}. Διπλότυπος τύπος ταξινόμησης {Τύπος Ταξινόμησης} και κατηγορία {Κατηγορία Ταξινόμησης}",
+        "messageEn": "Invoice line: {lineNumber}. Duplicate classification type {classificationType} and category{classificationCateg ory}"
+    },
+    {
+        "code": 306,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Γραμμή τιμολογίου: {Αριθμός Γραμμής}. Το άθροισμα των ταξινομήσεων δεν είναι ίσο με την καθαρή αξία της γραμμής",
+        "messageEn": "Invoice line: {lineNumber}. Sum of classifications are not equal to line's net value"
+    },
+    {
+        "code": 307,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο τύπος ταξινόμησης {Τύπος Ταξινόμησης} απαγορεύεται για την κατηγορία ταξινόμησης {Κατηγορία Ταξινόμησης}",
+        "messageEn": "Classification type {classificationType} is forbidden for Classification category {classificationCategory}"
+    },
+    {
+        "code": 308,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Η κατηγορία ταξινόμησης {Κατηγορία Ταξινόμησης} απαγορεύεται για τον τύπο τιμολογίου {Τύπος Ταξινόμησης}",
+        "messageEn": "Classification category {classificationCategory} is forbidden for Invoice type {classificationType}"
+    },
+    {
+        "code": 309,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ταξινομήσεις {Τρόπος Ταξινόμησης} απαγορεύονται για τιμολόγιο με σήμα {mark} για λογαριασμό του ΑΦΜ {ΑΦΜ} για σειρά τιμολογίου με τύπο στοιχείου {Τύπος Στοιχείου}",
+        "messageEn": "{ClassificationMode} classifications are forbidden for invoice with mark {mark} on behalf of vat number {vatNumber} for invoice row with detail type {detailType}"
+    },
+    {
+        "code": 310,
+        "statusCode": "TechnicalError",
+        "element": "Classification",
+        "message": "Όλες οι ταξινομήσεις τιμολογίων ή καμία θα πρέπει να έχουν τιμή κατηγορίας {Κατηγορία Ταξινόμησης}",
+        "messageEn": "All classifications of invoice or none should have category value {classificationCategory}"
+    },
+    {
+        "code": 311,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ταξινόμηση με τύπο {Τύπος Ταξινόμησης} και κατηγορία \" {Κατηγορία Ταξινόμησης} δεν βρέθηκε στην περίληψη τιμολογίων",
+        "messageEn": "Classification with type {classificationType} and category \" {classificationCategory} not found in invoice summary"
+    },
+    {
+        "code": 312,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Άθροισμα ταξινομήσεων με τύπο {Τύπος Ταξινόμησης} και κατηγορία {Κατηγορία Ταξινόμησης} που δεν ταιριάζει με το σχετικό σύνολο στην περίληψη τιμολογίων",
+        "messageEn": "Sum of classifications with type {classificationType} and category {classificationCategory} not matching with related total in invoice summary"
+    },
+    {
+        "code": 313,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο τύπος ταξινόμησης {Τύπος Ταξινόμησης} απαγορεύεται για την κατηγορία ταξινόμησης {Κατηγορία Ταξινόμησης} σε συνδυασμό με τον τύπο τιμολογίου {Τύπος Τιμολογίου}",
+        "messageEn": "Classification type {classificationType} is forbidden for Classification category {classificationCategory} combined with invoice type {invoiceType}"
+    },
+    {
+        "code": 314,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Όλα τα τιμολόγια πρέπει να περιέχουν είτε την ενότητα ταξινομήσεων εσόδων ή εξόδων, όχι και τις δύο ή καμία",
+        "messageEn": "All invoices should contain either income or expenses classifications section, not both or none"
+    },
+    {
+        "code": 315,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Οι χαρακτηρισμοί (ταξινομήσεις) ΦΠΑ δεν έχουν κατηγορία",
+        "messageEn": "VAT classifications have no category"
+    },
+    {
+        "code": 316,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Δεν επιτρέπονται χαρακτηρισμοί (ταξινομήσεις) ΦΠΑ σε περίπτωση απαλλαγής από τον ΦΠΑ",
+        "messageEn": "VAT classifications are not allowed in case of VAT exemption"
+    },
+    {
+        "code": 317,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Στοιχεία τιμολογίου {Αριθμός Γραμμής}: Η ταξινόμηση ΦΠΑ πρέπει να είναι τύπου 366 σε περίπτωση Κατηγορία Απαλλαγής ΦΠΑ = 16",
+        "messageEn": "Invoice detail { lineNumber } : VAT classification must be of type 366 in case vatExemptionCategory = 16"
+    },
+    {
+        "code": 318,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Το στοιχείο {Πεδίο} πρέπει να έχει την ίδια τιμή με το συσχετισμένο",
+        "messageEn": "Element {Field} must have same value with correlated's one"
+    },
+    {
+        "code": 319,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η καθαρή αξία του συσχετισμένου τιμολογίου έχει ήδη υπερβεί το άθροισμα των καθαρών αξιών των τιμολογίων που σχετίζονται με αυτό",
+        "messageEn": "Net value of correlated invoice already exceeded by sum of net values of invoices correlated to it"
+    },
+    {
+        "code": 320,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Μη έγκυρος τύπος συσχετισμένου τιμολογίου",
+        "messageEn": "Invalid correlated invoice type"
+    },
+    {
+        "code": 321,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Δεν επιτρέπονται ταξινομήσεις μόνο στην περίληψη τιμολογίων",
+        "messageEn": "Classifications are not allowed only in the invoice summary"
+    },
+    {
+        "code": 322,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Μη υποστηριζόμενος τύπος συσχετισμένου τιμολογίου",
+        "messageEn": "Unsupported correlated invoice type"
+    },
+    {
+        "code": 323,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο χρήστης δεν μπορεί να χρησιμοποιήσει απευθείας αυτήν την υπηρεσία λόγω των ετήσιων ορίων ακαθάριστου εισοδήματος",
+        "messageEn": "User cannot use directly this service due to annual gross income limits"
+    },
+    {
+        "code": 324,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Η απόρριψη ή η απόκλιση ταξινόμησης δεν επιτρέπεται να αποστέλλεται με αυτήν τη μέθοδο",
+        "messageEn": "Classification rejection or deviation is not allowed to be sent with this method"
+    },
+    {
+        "code": 325,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο συνδυασμός του αρχικού τιμολογίου Κατηγορίας ΦΠΑ {ΚατηγορίαΦΠΑ} και της Κατηγορίας Απαλλαγής ΦΠΑ {ΚατηγορίαΑπαλλαγήςΦΠΑ} δεν βρέθηκαν στο Έγγραφο χαρακτηρισμού εξόδων",
+        "messageEn": "Initial invoice's c ombination of vatCategory {vatCategory} and vatExemptionCategory {vatExemptionCategory} not found in ExpensesClassificationDoc"
+    },
+    {
+        "code": 326,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο συνδυασμός του αρχικού τιμολογίου Κατηγορίας ΦΠΑ {ΚατηγορίαΦΠΑ}, Κατηγορίας Απαλλαγής ΦΠΑ {ΚατηγορίαΑπαλλαγήςΦΠΑ}, αξίας {αξίας} και ποσού ΦΠΑ {ποσόΦΠΑ} δεν ταιριάζουν με τους χαρακτηρισμούς",
+        "messageEn": "Initial invoice's c ombination of vatCategory {vatCategory}, vatExemptionCategory {vatExemptionCategory}, amount {amount} and VAT amount {vatAmount} not matching classification’s"
+    },
+    {
+        "code": 327,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Συνδυασμός Κατηγορίας ΦΠΑ {ΚατηγορίαΦΠΑ}, Κατηγορίας Απαλλαγής ΦΠΑ {ΚατηγορίαΑπαλλαγήςΦΠΑ}: το ποσό πρέπει να έχει την ίδια αναλογία με το ποσό ΦΠΑ",
+        "messageEn": "Combination vatCategory {vatCategory}, vatExemptionCategory {vatExemptionCategory}: Amount must have same analogy with VAT amount"
+    },
+    {
+        "code": 328,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Συνδυασμός Κατηγορίας ΦΠΑ {ΚατηγορίαΦΠΑ}, Κατηγορίας Απαλλαγής ΦΠΑ {ΚατηγορίαΑπαλλαγήςΦΠΑ}: το ποσό ΦΠΑ υπερβαίνει αυτό του αρχικού τιμολογίου για τον ίδιο συνδυασμό",
+        "messageEn": "Combination vatCategory {vatCategory}, vatExemptionCategory {vatExemptionCategory}: VAT amount exceedes the one of initial's invoice for same combination"
+    },
+    {
+        "code": 329,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Συνδυασμός Κατηγορίας ΦΠΑ {ΚατηγορίαΦΠΑ}, Κατηγορίας Απαλλαγής ΦΠΑ {ΚατηγορίαΑπαλλαγήςΦΠΑ}: Ο συνδυασμός δε βρέθηκε στο αρχικό παραστατικό",
+        "messageEn": "Combination vatCategory {vatCategory}, vatExemptionCategory {vatExemptionCategory}: Combination not found in initial invoice"
+    },
+    {
+        "code": 330,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Απροσδόκητο τεχνικό σφάλμα για τη γραμμή ταξινόμησης",
+        "messageEn": "Unexpected technical error for classification line"
+    },
+    {
+        "code": 331,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Δεν ήταν δυνατή η φόρτωση/δεν βρέθηκε έγκυρο έγγραφο επικύρωσης για ταξινόμηση με κατηγορία {κατηγορία_ταξινόμησης} και τύπο {τύπος_ταξινόμησης}",
+        "messageEn": "Could not load/found valid validation doc fo r classification with category {classification_category} and type {classification_type}"
+    },
+    {
+        "code": 332,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Σε περίπτωση απαλλαγής ΦΠΑ, το άθροισμα των ποσών των ταξινομήσεων Ε3 και το άθροισμα των ποσών ΦΠΑ των ταξινομήσεων ΦΠΑ πρέπει να είναι ίσο με τη συνολική καθαρή αξία του τιμολογίου συν τους φόρους που πρέπει να ταξινομηθούν συν το ποσό του μη εξαιρούμενου ΦΠΑ",
+        "messageEn": "In case of VAT exemption sum of E3 classifications' amounts and sum of VAT classifications' vat amounts must be equal to invoice total net value plus taxes to be classified plus excluded vat amount"
+    },
+    {
+        "code": 333,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Το άθροισμα των ποσών των ταξινομήσεων E3 πρέπει να είναι ίσο με τη συνολική καθαρή αξία του τιμολογίου συν τους φόρους που πρέπει να ταξινομηθούν",
+        "messageEn": "Sum of E3 classifications' amounts must be equal to invoice total net value plus taxes to be classified"
+    },
+    {
+        "code": 334,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Συνδυασμός Κατηγορία ΦΠΑ {Πεδίο1}, Κατηγορία Απαλλαγής ΦΠΑ {Πεδίο2}: Σε περίπτωση χωρίς υποχρέωση ΦΠΑ, απαιτείται ταξινόμηση με παρόμοια κατηγορία απαλλαγής ΦΠΑ, κατηγορία ΦΠΑ 24% ή 17% και τύπο ταξινόμησης 366 [Πιθανές τιμές {Πεδίο1}: {'κενό', [1-8]}] [Πιθανές τιμές {Πεδίο2}: {'κενό', [εύρος τιμών των αιτιών εξαίρεσης από το σχετικό παράρτημα]}]",
+        "messageEn": "Combination vatCategory {field1} , vatExemptionCategory {field2} : In case of without VAT obligation, a classification with similar VAT exemption category, VAT category of 24% or 17% and classification type 366 is required [Possible {field1} values: {‘null’, [1-8]}] [Possible {field2} values: {‘null’, [εύρος τιμών των αιτιών εξαίρεσης από το σχετικό παράρτημα]}]"
+    },
+    {
+        "code": 335,
+        "statusCode": "TechnicalError",
+        "element": "Classification",
+        "message": "Η Ταξινόμηση Εξόδων Αποστολής ανά Τιμολόγιο δεν υποστηρίζεται για τιμολόγια καυσίμων ή τιμολόγια τύπου 1.5",
+        "messageEn": "SendExpensesClassificationP erInvoice method is not supported for fuel invoices or invoices of type 1.5"
+    },
+    {
+        "code": 336,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Σε περίπτωση απαλλαγής από ΦΠΑ, πρέπει να αναφέρεται ποσοστό του ποσού ΦΠΑ στην ταξινόμηση Ε3 με κατηγορία 2.5",
+        "messageEn": "In case of VAT exemption a percentage of vat amount must be referred in E3 classification with category 2.5"
+    },
+    {
+        "code": 337,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Συνδυασμός Κατηγορία ΦΠΑ {Πεδίο1}, Κατηγορία Απαλλαγής ΦΠΑ {Πεδίο2}: Τα πεδία Ποσό ΦΠΑ, Κατηγορία ΦΠΑ και Κατηγορία Απαλλαγής ΦΠΑ πρέπει να είναι μηδενικά όταν δημοσιεύονται ταξινομήσεις ανά γραμμή [Πιθανές τιμές {Πεδίο1}: {'κενό', [1-8]}] [Πιθανές τιμές {Πεδίο2}: {'κενό', [εύρος τιμών των αιτιών εξαίρεσης ΦΠΑ από το σχετικό πίνακα του παραρτήματος]}]",
+        "messageEn": "Combination vatCategory {field1}, vatExemptionCategory {field2}: Fields vatAmount, vatCategory and vatExemptionCategory must be null when classifications are posted per line [Possible {field1} values: {‘null’, [1-8]}] [Possible {field2} values: {‘ null’, [εύρος τιμών των αιτιών εξαίρεσης ΦΠΑ από το σχετικό πίνακα του παραρτήματος]}]"
+    },
+    {
+        "code": 338,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Απαγορεύεται ο χαρακτηρισμός για τη σειρά τιμολογίων {αριθμός γραμμής} λόγω του Τύπος rec ή του Τύπου Στοιχείου: Τιμή",
+        "messageEn": "Classification is forbidden for invoice row {linenumber} because of its recType or its detailType Value"
+    },
+    {
+        "code": 339,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "{μήνυμα} χαρακτηρισμός δεν επιτρέπεται για τη γραμμή παραστατικού {αριθμός γραμμής} λόγω της τιμής του Τύπου Στοιχείου [Πιθανές τιμές {msg}: {'Χαρακτηρισμός εσόδων ', ''Χαρακτηρισμός Εξόδων'}]",
+        "messageEn": "{msg} classification is forbidden for invoice row {linenumber} because of its detailType value [Possible {msg} values: {‘incomeClassification’, ‘expensesClassification’}]"
+    },
+    {
+        "code": 340,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Το πεδίο Τρόπος Ανάρτησης Χαρακτηρισμού (ClassificationPostMode) δεν πρέπει να περιέχεται σε xml",
+        "messageEn": "ClassificationPostMode field must not be contained in xml"
+    },
+    {
+        "code": 341,
+        "statusCode": "ValidationError",
+        "element": "Classification",
+        "message": "Ο κωδικός κατάταξης ΦΠΑ δαπανών NOT_VAT_295 δεν επιτρέπεται να αναρτάται για τιμολόγια τύπου 14.1 και 14.3",
+        "messageEn": "Expenses VAT classification code NOT_VAT_295 is not allowed to be posted for invoices of type 14.1 and 14.3"
+    },
+    {
+        "code": 401,
+        "statusCode": "ValidationError",
+        "element": "Invoice",
+        "message": "Η εκ νέου αποστολή μεθόδων πληρωμής δεν επιτρέπεται για τον τύπο τιμολογίου του αρχικού",
+        "messageEn": "Resending payments methods is not allowed for initial's invoice type"
+    },
+    {
+        "code": 402,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Τουλάχιστον ένα στοιχείο τρόπου πληρωμής πρέπει να είναι τύπου POS",
+        "messageEn": "At least one payment method detail must be of POS type"
+    },
+    {
+        "code": 403,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Το τιμολόγιο με MARK {mark} στάλθηκε από τον πάροχο. Οι Τρόποι Πληρωμής πρέπει να περιέχουν την υπογραφή του παρόχου",
+        "messageEn": "Invoice with MARK { mark} was sent by provider. Payment Methods must contain provider signature"
+    },
+    {
+        "code": 404,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Το τιμολόγιο με MARK {mark} στάλθηκε από ERP. Οι τρόποι πληρωμής δεν πρέπει να περιέχουν υπογραφή παρόχου\"",
+        "messageEn": "Invoice with MARK { mark} was sent by ERP. Payment Methods must not contain provider signature\""
+    },
+    {
+        "code": 405,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Το τιμολόγιο με MARK {mark} στάλθηκε από τον πάροχο. Οι τρόποι πληρωμής δεν πρέπει να περιέχουν διακριτικό ECR\"",
+        "messageEn": "Invoice with MARK { mark} was sent by provider. Payment Methods must not contain ECR token\""
+    },
+    {
+        "code": 406,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Το τιμολόγιο με MARK {mark} στάλθηκε από ERP. Οι τρόποι πληρωμής πρέπει να περιέχουν διακριτικό ECR",
+        "messageEn": "Invoice with MARK { mark} was sent by ERP. Payment Methods must contain ECR token"
+    },
+    {
+        "code": 407,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Το συνολικό ποσό των τρόπων πληρωμής πρέπει να είναι ίσο ή μικρότερο από τη συνολική αξία του αρχικού τιμολογίου",
+        "messageEn": "Payment Methods total amount must be equal to or less than initial invoice's total value"
+    },
+    {
+        "code": 408,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Τιμολόγιο με MARK {mark_τιμολογίου}: Δεν είναι δυνατή η εκ νέου αποστολή των τρόπων πληρωμής για τιμολόγια που δημιουργούνται από την εφαρμογή timologio",
+        "messageEn": "Invoice with MARK {invoice_mark}: Payment Methods cannot be resent for invoices created by timologio application"
+    },
+    {
+        "code": 409,
+        "statusCode": "ValidationError",
+        "element": "Payment",
+        "message": "Το πεδίο EndToEndReferenceID απαγορεύεται για λεπτομέρειες μεθόδου πληρωμής τύπου ίσου με POS\"",
+        "messageEn": "EndToΕndReferenceID field is forbidden for paymentMethodDetails of type equal to POS"
+    },
+    {
+        "code": null,
+        "statusCode": "TechnicalError",
+        "element": null,
+        "message": "Μη αναμενόμενο σφάλμα συνθήκης",
+        "messageEn": "Unexpected condition error"
     }
 ]

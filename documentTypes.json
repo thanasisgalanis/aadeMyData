@@ -108,6 +108,13 @@
         }
     },
     {
+        "code": "4",
+        "description": "Για Μελλοντική Χρήση",
+        "metadata": {
+            "notes": "Για Μελλοντική Χρήση (πίνακας 8.1). Τιμή αποδεκτή από το XSD v2.0.2, χωρίς φύλλο στους συνδυασμούς χαρακτηρισμών."
+        }
+    },
+    {
         "code": "5.1",
         "description": "Πιστωτικό Τιμολόγιο / Συσχετιζόμενο",
         "metadata": {
@@ -192,12 +199,48 @@
         }
     },
     {
+        "code": "9.1",
+        "description": "Δελτίο Αποστολής Συσχετιζόμενο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Δεν περιλαμβάνεται στον πίνακα 8.1 της τεκμηρίωσης για Παρόχους v2.0.2."
+        }
+    },
+    {
+        "code": "9.2",
+        "description": "Συγκεντρωτικό Δελτίο Αποστολής",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Δεν περιλαμβάνεται στον πίνακα 8.1 της τεκμηρίωσης για Παρόχους v2.0.2."
+        }
+    },
+    {
         "code": "9.3",
         "description": "Δελτίο Αποστολής",
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true,
             "requiresCounterparty": true
+        }
+    },
+    {
+        "code": "10.1",
+        "description": "Δελτίο Ποσοτικής Παραλαβής Συσχετιζόμενο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Δεν περιλαμβάνεται στον πίνακα 8.1 της τεκμηρίωσης για Παρόχους v2.0.2."
+        }
+    },
+    {
+        "code": "10.2",
+        "description": "Δελτίο Ποσοτικής Παραλαβής Μη Συσχετιζόμενο",
+        "metadata": {
+            "availableForERP": true,
+            "availableForProvider": false,
+            "notes": "Δεν περιλαμβάνεται στον πίνακα 8.1 της τεκμηρίωσης για Παρόχους v2.0.2."
         }
     },
     {
@@ -238,6 +281,13 @@
         "metadata": {
             "availableForERP": true,
             "availableForProvider": true
+        }
+    },
+    {
+        "code": "12",
+        "description": "Για Μελλοντική Χρήση",
+        "metadata": {
+            "notes": "Για Μελλοντική Χρήση (πίνακας 8.1). Τιμή αποδεκτή από το XSD v2.0.2, χωρίς φύλλο στους συνδυασμούς χαρακτηρισμών."
         }
     },
     {

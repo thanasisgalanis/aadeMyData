@@ -25,7 +25,7 @@
     },
     {
         "code": "4",
-        "description": "Λοιπές περιπτώσεις Χαρτοσήμου",
+        "description": "Λοιπές περιπτώσεις",
         "metadata": {
             "defaultValue": 0.00,
             "defaultValueType": "amount"

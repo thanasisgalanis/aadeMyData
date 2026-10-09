@@ -1,0 +1,22 @@
+[
+    {
+        "code": "RegisterTransfer",
+        "description": "Έναρξη διακίνησης ή μεταφόρτωση."
+    },
+    {
+        "code": "ConfirmOutcome",
+        "description": "Δήλωση αποτελέσματος παράδοσης / Επιβεβαίωση παραλαβής."
+    },
+    {
+        "code": "Rejection",
+        "description": "Ολική απόρριψη από τον λήπτη."
+    },
+    {
+        "code": "ConfirmReturn",
+        "description": "Επιβεβαίωση από εκδότη της επιστροφής"
+    },
+    {
+        "code": "RegisterTransferReturn",
+        "description": "Επιστροφή (όταν δεν έγινε πλήρης παράδοση)"
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "code": "1",
+        "description": "ΔΠΠ - ΜΗ ΥΠΟΧΡΕΟΣ ΕΚΔΟΣΗΣ",
+        "metadata": {
+            "allowedInvoiceTypes": [
+                "10.1",
+                "10.2"
+            ],
+            "notes": "Αποδεκτό για 10.1 και 10.2"
+        }
+    },
+    {
+        "code": "2",
+        "description": "ΔΠΠ - ΑΡΝΗΣΗ ΕΚΔΟΣΗΣ/ΕΚ ΠΑΡΑΔΡΟΜΗΣ ΜΗ ΕΚΔΟΣΗ",
+        "metadata": {
+            "allowedInvoiceTypes": [
+                "10.1",
+                "10.2"
+            ],
+            "notes": "Αποδεκτό για 10.1 και 10.2"
+        }
+    },
+    {
+        "code": "3",
+        "description": "ΔΠΠ - ΕΝΔΟΚΟΙΝΟΤΙΚΗ ΑΠΟΚΤΗΣΗ",
+        "metadata": {
+            "allowedInvoiceTypes": [
+                "10.1",
+                "10.2"
+            ],
+            "notes": "Αποδεκτό για 10.1 και 10.2"
+        }
+    },
+    {
+        "code": "4",
+        "description": "ΔΠΠ - ΑΠΟΚΤΗΣΗ ΤΡΙΤΗ ΧΩΡΑ",
+        "metadata": {
+            "allowedInvoiceTypes": [
+                "10.1",
+                "10.2"
+            ],
+            "notes": "Αποδεκτό για 10.1 και 10.2"
+        }
+    },
+    {
+        "code": "5",
+        "description": "ΔΠΠ - ΠΟΣΟΤΙΚΟΣ ΕΛΕΓΧΟΣ",
+        "metadata": {
+            "allowedInvoiceTypes": [
+                "10.1"
+            ],
+            "notes": "Αποδεκτό για 10.1"
+        }
+    },
+    {
+        "code": "6",
+        "description": "ΔΠΠ - ΜΗ/ΜΕΡΙΚΗ ΠΑΡΑΔΟΣΗ",
+        "metadata": {
+            "allowedInvoiceTypes": [
+                "10.1",
+                "10.2"
+            ],
+            "notes": "Αποδεκτό για 10.1 και 10.2"
+        }
+    }
+]
